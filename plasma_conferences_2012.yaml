@@ -1,0 +1,129 @@
+---
+conference: Journées Jeunes Chercheurs 2012
+url: http://jjc2012.free.fr/
+date: December 2nd - 8th 2012
+venue: Munster, France
+contributions:
+- type: Talk
+  title: Etude de la production de J/psi dans les collisions PbPb avec l'expérience ALICE
+  author: Antoine LARDEUX
+---
+conference: LHC on the March
+url: https://indico.cern.ch/event/202467/
+date: November 20th - 22nd 2012
+venue: Protvino, Russia
+contributions:
+- type: Talk
+  title: Review of recent results on jet physics in Heavy Ion from LHC
+  author: Alexander SHABETAI
+---
+conference: International workshop on heavy quark production in heavy-ion collisions
+url: https://indico.cern.ch/conferenceDisplay.py?confId=182856
+date: November 14th - 17th 2012
+venue: Utrecht, Netherlands
+contributions:
+- type: Talk
+  title: Measurement of heavy-flavour decay muon production at forward rapidity in Pb-Pb collisions at sqrt(sNN) = 2.76 TeV with ALICE
+  author: Philippe PILLOT for the ALICE collaboration
+---
+conference: Hot Quarks 2012
+url: http://hq2012.bnl.gov/
+date: October 14th - 20th 2012
+venue: Copamarina, Porto-Rico
+contributions:
+- type: Talk
+  title: Direct photons measurement with the ALICE Electromagnetic Calorimeter (EMCal) in p-p collisions at the LHC
+  author: Alexis MAS for the ALICE collaboration
+- type: Talk
+  title: J/psi production in Pb-Pb collisions at sqrt(s_NN)=2.76 TeV in the ALICE experiment
+  author: Antoine LARDEUX for the ALICE collaboration
+---
+conference: Rencontres QGP-France 2012
+url: http://llr.in2p3.fr/sites/qgp2012/
+date: September 25th - 28th 2012
+venue: Etretat, France
+contributions:
+- type: Talk
+  title: Jet fragmentation measurement in pp at 7 TeV with ALICE detector
+  author: Anaïs BERGOGNON
+- type: Talk
+  title: Isolated photon measurement in pp at 7 TeV with EMCal, the ALICE electromagnetic calorimeter
+  author: Alexis MAS
+- type: Talk
+  title: J/&Psi; Raa as a function of pT and &Psi;&rsquol production in ALICE
+  author: Antoine LARDEUX
+- type: Talk
+  title: Revue des résultats récents sur la physique des jets
+  author: Alexandre SHABETAI
+- type: Talk
+  title: Mesure quarkonia avec les upgrades ALICE
+  author: Laure MASSACRIER for the ALICE collaboration
+---  
+conference: QCD 2012
+url: http://www.lpta.univ-montp2.fr/users/qcd/qcd2012/qcd12/Welcome.html
+date: July 2nd - 6th 2012
+venue: Montpellier, France
+contributions:
+- type: Invited Talk
+  title: Overview of ALICE results at LHC
+  author: Gines MARTINEZ for the ALICE collaboration
+---
+conference: 'Hard Probes 2012: 5th International Conference on Hard and Electromagnetic Probes of High Energy Nuclear Collisions'
+url: http://www.ca.infn.it/hp12/index.html
+date: May 27th - June 1st 2012
+venue: Cagliari, Italy
+contributions:
+- type: Talk
+  title: J/psi elliptic flow measurement in Pb-Pb collisions at forward rapidity in the ALICE experiment
+  author: Laure MASSACRIER
+- type: Talk
+  title:  Measurement of heavy-flavour decay muon production at forward rapidity in Pb-Pb collisions at $\sqrt{s_{NN}}$ = 2.76 TeV with the ALICE experiment
+  author: Diego STOCCO for the ALICE collaboration
+---
+conference: Séminaire au laboratoire SINAP 
+url: http://english.sinap.cas.cn/
+date: May 21st 2012
+venue: Shanghai, Chine
+contributions:
+- type: Invited Speaker (by Prof. Yugang MA)
+  title:  The physics of the heavy ion collisions at ultra relativistic energies 
+  author: Gines MARTINEZ
+---
+conference:  International MUON Workshop 
+url: http://indico.tlabs.ac.za/conferenceDisplay.py?confId=21
+date: April 30th - May 4th 2012
+venue: Cape Town, South Africa
+contributions:
+- type: Talk
+  title:  Status of J/psi RAA analysis
+  author: Philippe PILLOT
+- type: Talk
+  title: MUON tracking performances 
+  author: Philippe PILLOT
+---
+conference: Journées de prospectives IN2P3-IRFU 
+url: http://journeesprospective-in2p3-irfu.in2p3.fr/
+date: Avril 2nd - 5th 2012
+venue: Giens, France
+contributions:
+- type: Invited Talk
+  title: Les photons, jets, hadrons charmés et beaux 
+  author: M. ESTIENNE
+---
+conference: 5th Workshop du laboratoire franco-chinois de physique de particules 2012
+url: https://indico.in2p3.fr/conferenceDisplay.py?confId=6153
+date: March 21st - 24th 2012
+venue: IRFU, Saclay, France
+contributions:
+- type: Invited Talk
+  title: The physics of the heavy ion collisions at ultra relativistic energies 
+  author: Gines MARTINEZ
+---
+conference: High pT physics at LHC Frankfurt 2012
+url: https://indico.cern.ch/conferenceDisplay.py?confId=180669
+date: March 26th - 29th 2012
+venue: Hanau, Germany
+contributions:
+- type: Talk
+  title: Jet Reconstruction with the ALICE electromagnetic calorimeter, EMCAL
+  author: Alexandre SHABETAI for the ALICE collaboration

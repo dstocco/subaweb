@@ -1,0 +1,116 @@
+---
+conference: Université de Nantes Physics Department Career Day
+url: www.sciences-techniques.univ-nantes.fr/
+date: November 22nd 2017
+venue: Nantes, France
+type: University Career Day
+participants: 150
+contributions:
+- type: Invited Talk
+  title: 'A PhD in physics: why not me?'
+  author: Erwann MASSON
+---
+conference: Rencontres QGP France 2017
+url: https://indico.cern.ch/event/639092/
+date: October 9th - 12th 2017
+venue: Etretat, France
+type: National Conference
+participants: 44
+contributions:
+- type: Talk
+  title: Isolated photon measurement in pp and p–Pb collisions at LHC with ALICE
+  author: Erwann MASSON
+---
+conference: SQM 2017
+url: https://indico.cern.ch/event/576735/overview
+date: July 10th - 15th 2017
+venue: Utrecht, Netherland
+type: International Conference
+participants: 200
+contributions:
+- type: Talk
+  title: Quarkonium production in Pb-Pb collisions at sqrt(s_NN) = 5.02 TeV with ALICE
+  author: Audrey FRANCISCO
+---
+conference: The sixth joint workshop of the France Korea (FKPPL) and France Japan (TYL/FJPPL) International Associated Particle Physics Laboratories
+url: https://indico.lal.in2p3.fr/event/3425/
+date: May 10th - 12th 2017
+venue: Strasbourg, France
+type: France-Korea-Japan Workshop
+participants: 100
+contributions:
+- type: Talk
+  title: 'TYL-FJPPL: HAD_02 and FKPPL: ALICE "ALICE upgrades for QGP physics at forward rapidity'
+  author: Gines MARTINEZ
+---
+conference: Seminar in the LPC of Universite Clermont Auvergne 
+url: https://indico.in2p3.fr/category/165/
+date: May 22nd 2017
+venue: Clermont-Ferrand, France
+contributions:
+- type: Seminar
+  title: Quarkonium production in heavy ion collisions at the LHC
+  author: Gines MARTINEZ
+---
+conference: LHCP 2017
+url: http://lhcp2017.physics.sjtu.edu.cn/node/29
+date: May 15th - 20th
+venue: Shanghai, China
+type: International conference
+participants: 500
+contributions: 
+- type: Convener of the Performance parallel session
+  author: Marie GERMAIN
+---
+conference: FCPPL Quarkonium Production Workshop 
+url: https://indico.cern.ch/event/589698/
+date: March 28th - 30th 2017
+venue: Beijing, China
+type: Franco-Chinese Workshop
+participants: 30
+contributions:
+- type: Talk
+  title: On the Psi(2S) over J/psi production yield in pp and pA collisions
+  author: Gines MARTINEZ
+---
+conference: Rencontres de Moriond
+url: http://moriond.in2p3.fr/QCD/2017/
+date: March 25th - April 1st 2017
+venue: La thuile, Vallée d'Aoste, Italie
+type: International conference
+participants: 100
+contributions:
+- type: Invited contribution
+  title: Quarkonia and open heavy flavour production with ALICE</em>,
+  author: Philippe PILLOT
+---
+url: http://qm2017.phy.uic.edu
+conference: Quark Matter 2017 
+date: February 5th - 11th 2017
+venue: Chicago, USA
+type: International Workshop
+participants: 700
+contributions:
+- type: Talk
+  title: Electroweak boson production in p-Pb and Pb-Pb collisions at 5.02 TeV with ALICE
+  author: Diego STOCCO
+  proceedings: https://inspirehep.net/record/1430575/files/PoS(EPS-HEP2015)222.pdf
+- type: Talk
+  title: Direct photon measurements in pp and Pb-Pb collisions with ALICE
+  author: Marie GERMAIN
+  proceedings: https://inspirehep.net/record/1628270/files/Fulltext.pdf
+- type: Poster
+  title: Measurements of jet fragmentation functions and of their moments in pp collisions at 2.76 TeV with the ALICE detector
+  author: Alexandre SHABETAI
+- type: Poster
+  title: J/psi production in pp collisions at sqrt(s) = 5.02 TeV measured at forward rapidity with ALICE at the LHC 
+  author: Benjamin AUDURIER
+---
+conference: Seminar in the Physics Institut of Heidelberg University 
+url: http://www.physi.uni-heidelberg.de/Veranstaltungen/vortraege.php?kol=ALL&amp;sem=WS16/17
+date: January 13th 2017
+venue: Heidelberg, Germany
+contributions:
+- type: Seminar
+  title: Quarkonium production in heavy ion collisions at the LHC
+  author: Gines MARTINEZ

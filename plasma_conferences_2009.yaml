@@ -1,0 +1,90 @@
+---
+conference: Journées QGP-France 2009
+url: http://polywww.in2p3.fr/actualites/congres/qgp2009/
+date: September 15th - 17th 2009
+venue: Etretat, France
+contributions:
+- type: Talk
+  title:  Bilan sur le calorimètre électromagnétique d'Alice EMCal
+  author: Magali ESTIENNE for the ALICE collaboration
+- type: Talk
+  title:  Quarkonia and heavy flavours with ALICE
+  author: Diego STOCCO for the ALICE collaboration
+- type: Talk
+  title: Les améliorations dans ALICE"
+  author: Gines MARTINEZ for the ALICE collaboration
+- type: Talk
+  title: Quarkonia and heavy flavours with ALICE
+  author: Diego STOCCO for the ALICE collaboration
+---
+conference: 'EDS09: 13th International Conference on Elastic and Diffractive Scattering'
+url: https://indico.cern.ch/conferenceDisplay.py?confId=41547
+date: June 29th - July 3rd 2009
+venue: Geneva, Switzerland
+contributions:
+- type: Invited Talk
+  title: QCD heavy ions
+  author: Gines MARTINEZ
+---
+conference: Workshop on the ALICE Muon Spectrometer Project and Related Physics  
+url: https://indico.cern.ch/conferenceDisplay.py?confId=57157
+date: September 8th - 10th 2010
+venue: Aussois, France
+contributions:
+- type: Talk
+  title: News about QA (ESD)
+  author: Philippe PILLOT
+- type: Talk
+  title: Reconstruction of cosmic tracks
+  author: Philippe PILLOT
+- type: Talk
+  title: News about reconstruction
+  author: Philippe PILLOT
+---
+conference: 'CIPANP 2009: Tenth Conference on the Intersections of Particle and Nuclear Physics'
+url: 
+date: May 25th - 31st 2009
+venue: San Diego, California, USA
+contributions:
+- type: Invited Talk
+  title: 'Open and hidden heavy flavors: perspectives at the LHC'
+  author: Diego STOCCO
+- type: Talk
+  title:  Non Photonic e-D**0 correlations in p+p and Au+Au collisions at $\sqrt{s_{NN}}$ = 200-GeV
+  author: Artemios GEROMITSOS for the STAR collaboration
+---
+conference: ALICE EMCal Offline Meeting 
+url: 
+date: May 2009 
+venue: Frascati, Italie
+contributions:
+- type: Talk
+  title:  Jet reconstruction with the EMCal in the ALICE Software
+  author: M. ESTIENNE
+---
+conference: Workshop on Heavy Quarkonia Production in Heavy Ion Collisions in the European Centre for Theoretical Studies in Nuclear Physics
+url:
+date: May 25th - 29th 2009
+venue: Trento, Italy
+contributions:
+- type: Invited Talk
+  title: Quarkonium measurements in ALICE at LHC
+  author: Gines MARTINEZ for the ALICE collaboration
+---
+conference: Post QM workshop on Jet and photon physics and High-level Trigger 
+url:
+date: April 2009
+venue: Berkeley, USA
+contributions:
+- type: Talk
+  title: Some aspects of jet reconstruction in the ALICE experiment
+  author: Magali ESTIENNE
+---
+conference: International Meeting on Fundamental Physics
+url:
+date: February 9th - 13th 2009
+venue: Benasque, Spain
+contributions:
+- type: Invited Talk
+  title: Status of ALICE
+  author: Gines MARTINEZ for the ALICE collaboration

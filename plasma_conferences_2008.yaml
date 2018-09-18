@@ -1,0 +1,120 @@
+---
+conference: '1st International Workshop on Multiple Partonic Interactions at the LHC: MPI@LHC08'
+url:
+date: October 27th - 31st 2008
+venue: Perugia, Italie
+contributions:
+- type: Talk
+  title: 'Jet reconstruction in heavy ion collisions: emphasis on underlying event background subtraction'
+  author: Magali ESTIENNE
+---
+conference: Physics at LHC
+url:
+date: September 29th - October 4th 2008
+venue: Split, Croatie
+contributions:
+- type: Talk
+  title:  Heavy flavour in ALICE
+  author: Philippe PILLOT for the ALICE collaboration
+---
+conference: Journées QGP-France 2008 
+url:
+date: September 15th - 18th 2008
+venue: Etretat, France
+contributions:
+- type: Talk
+  title:  Jets dans STAR
+  author: Magali ESTIENNE for the STAR collaboration
+- type: Talk
+  title:  Mesure du charme en single Muons dans ALICE
+  author: Nicolas LEBRIS for the ALICE collaboration
+- type: Talk
+  title: 'Processus durs dans les collisions pp au LHC avec ALICE : Production de photons et jets'
+  author: Raphaelle ICHOU
+- type: Talk
+  title:  Acceptance et efficacité de detection des pions neutres avec PHOS
+  author: Lamia BENHABIB for the ALICE collaboration
+- type: Invited Talk
+  title: Etat Général d'ALICE
+  author: Gines MARTINEZ for the ALICE collaboration
+---
+conference: 'Hot Quark 2008: Workshop for young scientists on the physics of ultra relativistic nucleus-nucleus collisions '
+url:
+date: August 18th - 23rd 2008
+venue: Aspen Lodge, Colorado, USA
+contributions:
+- type: Talk
+  title: 'ALICE-PHOS: Acceptance and efficiency correction factors p- p ---&gt; pi0 + X at 10-TeV'
+  author: Lamia BENHABIB for the ALICE Collaboration
+---
+conference: Hard Probes 2008
+url: http://www-fp.usc.es/hp2008/HP2008.html
+date: June 8th - 14th 2008
+venue: Isla de la Toja, Spain
+contributions:
+- type: Talk
+  title: Consequence of Lambda_c/D enhancement effect on the non-photonic electron nuclear modification factor in central heavy ioin collisions ar RHIC energy
+  author: Gines MARTINEZ
+---
+conference: Journes de la division Physique Nuclaire de la Société Française de Physique.
+url: https://indico.in2p3.fr/conferenceDisplay.py?ovw=True&amp;confId=647
+date: May 13th - 14th 2008
+venue: Nantes, France
+contributions:
+- type: Talk
+  title: Le charme ouvert dans STAR, avec ou sans Heavy Flavor Tracker ?
+  author: Alexandre SHABETAI
+---
+conference: International Workshop on LHC Heavy Ion Physics, 
+url:
+date: May 21st - 24th 2008
+venue: Wuhan, Chine
+contributions:
+- type: Talk
+  title: Physics Perspectives with ALICE EMCAL
+  author: Marie GERMAIN for the ALICE collaboration
+---
+conference: Séminaire au Laboratoire SUBATECH
+url:
+date: May 14th 2008
+venue: Nantes, France
+contributions:
+- type: Talk
+  title: Le futur du RHIC sera t'il charmant ?
+  author: Alexandre SHABETAI
+---
+conference: Journées de la division Physique Nuclaire de la Société Française de Physique
+url: https://indico.in2p3.fr/conferenceDisplay.py?ovw=True&amp;confId=647
+date: May 14th 2008
+venue: Nantes, France
+contributions:
+- type: Invited Talk
+  title: Evolution des sondes dures pour la physique des ions lourds du RHIC au LHC
+  author: Marie GERMAIN
+---
+conference: Ecole des Houches 
+url: http://ipht.cea.fr/Pisp/francois.gelis/Workshops/Houches2008/
+date: March 2008
+venue: Les Houches, France
+contributions:
+- type: Invited Talk
+  title:  Jet reconstruction performance in ALICE
+  author: M. ESTIENNE
+---
+conference:  Quark Matter 2008
+url: http://qm2008.bnl.gov/
+date: February 4th - 10th 2008
+venue: Jaipur, India
+contributions:
+- type: Talk
+  title: A measurement of the open charm cross-section in sqrt_sNN = 200 GeV Cu+Cu collisions at STAR experiment at RHIC
+  author: Alexandre SHABETAI for the STAR collaboration
+---
+conference: 'Workshop on Parton fragmentation processes: in the vacuum and in the medium'
+url: http://indico.cern.ch/conferenceDisplay.py?confId=18684
+date: February 2008
+venue: Trento, Italie
+contributions:
+- type: Invited Talk
+  title: Jet reconstruction performance in the ALICE experiment 
+  author: M. ESTIENNE

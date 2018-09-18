@@ -1,0 +1,96 @@
+---
+conference: First ReteQuarkonii Workshop
+url: https://indico.cern.ch/event/93174/
+date: October 25th - 28th 2010
+venue: Nantes, France
+type: International workshop organized by Subatech
+---
+url: http://www.weizmann.ac.il/conferences/HP2010/
+conference: 'Hard Probes 2010: 4th International Conference on Hard and Electromagnetic Probes of High Energy Nuclear Collisions'
+date: October 10th - 15th 2010
+venue: Eilat, Israel
+contributions:
+- type: Talk
+  title: Measurement of forward-rapidity heavy-flavour muons in proton-proton collisions at sqrt(s) = 7 TeV with ALICE
+  author: Diego STOCCO for the ALICE collaboration
+- type: Talk
+  title: Prompt and isolated photon capabilities of ALICE electromagnetic calorimeters 
+  author: Raphaelle ICHOU for the ALICE collaboration
+---
+conference:  Journées QGP-France 2010 
+url: http://llr.in2p3.fr/sites/qgp2010/index.php
+date: September 20th - 23rd 2010
+venue: Etretat, France
+contributions:
+- type: Talk
+  title:  Commissioning and performance of ALICE TPC
+  author: Adam MATYJA for the ALICE collaboration
+- type: Talk
+  title:  Intrajet radiation studies in pp collisions at LHC
+  author: Olga DRIHA for the AICE collaboration
+- type: Talk
+  title:  Charm and Beauty with STAR at RHIC
+  author: Witek BOROWSKI for the STAR collaboration</li>
+- type: Talk
+  title:  Saveurs lourdes dans ALICE_muon
+  author: Matthieu LENHARDT for the AICE collaboration
+---
+conference: 'WISH 2010: International Workshop on Interplay between Soft and Hard interactions in particle production at ultra-relativistic energies'
+url: http://agenda.ct.infn.it/conferenceDisplay.py?confId=295
+date: September 8th - 10th 2010
+venue: Catane, Italie
+contributions:
+- type: Invited Talk
+  title:  Jet fragmentation Monte Carlo study in vacuum and in medium in the ALICE experiment at the LHC
+  author: M. ESTIENNE
+---
+conference:  22nd Rencontres de Blois
+url: http://confs.obspm.fr/Blois2010/
+date: July 15th - 20th 2010
+venue: Blois, France
+contributions:
+- type: Talk
+  title:  Heavy Flavour Measurements with ALICE
+  author: G. Batigne for the ALICE collaboration
+---
+conference:  Hot Quark 2010
+url: http://hq2010.bnl.gov/
+date: June 21st - 26th 2010
+venue: La Londe les Maures, France
+contributions:
+- type: Talk
+  title: Jet reconstruction and hump-backed plateau extraction with the ALICE experiment at LHC
+  author: Swensy JANGAL for the ALICE collaboration
+- type: Talk
+  title: Studies of isolated prompt photons in proton-proton collisions with ALICE-EMCAL
+  author: Raphaelle ICHOU for the ALICE collaboration
+- type: Talk
+  title: Charm and beauty searches using electron-$D^0$ azimuthal correlations and microvertexing techniques in STAR experiment at RHIC
+  author: Witek BOROWSKI for the STAR collaboration
+---
+conference: Light Cone 2010
+url: http://www.uv.es/lc2010/
+date: June 14th - 18th 2010 
+venue:  Valencia, Spain
+contributions:
+- type: Invited Talk
+  title: ALICE physics programme and first experimental results
+  author: Gines MARTINEZ for the ALICE collaboration
+---
+conference: Workshop Hard and Electromagnetic Processes in Quark Matter 
+url: http://aliceinfo.ihep.su/HEPQM2010/
+date: June 16th - 17th 2010
+venue: Protvino, Russie
+contributions:
+- type: Talk
+  title: Jet production and intrajet radiation study in p&minus;p collisions at sqrt(s) = 7 TeV
+  author: Magali ESTIENNE
+---
+conference:  Meeting on Excited QCD 
+url: http://th.physik.uni-frankfurt.de/~excitedqcd/2010.html
+date: January 31st - February 6th 2010
+venue: Poprad, Slovakia
+contributions:
+- type: Invited Talk
+  title:  Selected highlights from the STAR experiment at RHIC
+  author: Sonia KABANA for the STAR collaboration
