@@ -1,0 +1,22 @@
+---
+conference: Rencontres Ions lourds
+url: http://llr.in2p3.fr/~fleuret/wikiil/wakka.php?wiki=RencontresIonsLourds
+date: March 8th 2018
+venue: Orsay, France
+type: National Conference
+participants: 50
+contributions:
+- type: Talk
+  title: J/psi v2
+  author: Audrey FRANCISCO
+---
+conference: Winter Workshop on Nuclear Dynamics
+url: https://indico.cern.ch/event/664310/
+date: March 25th - 31st 2018
+venue: Deshaies, Guadeloupe
+type: International Workshop
+participants: 100
+contributions:
+- type: Invited Talk
+  title: Quarkonium in A-A collisions with ALICE
+  author: Audrey FRANCISCO
