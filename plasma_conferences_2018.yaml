@@ -35,6 +35,11 @@ contributions:
 - type: Talk
   title: Big Data and Big Science - Tossing a trick coin
   author: Gabriele Gaetano FRONZÉ
+- type: Talk
+  title: Mesure de la production du boson Z dans les collisions p-Pb à sqrt(s_NN) = 8.16 TeV avec ALICE
+  author: Ophelie BUGNON
+- type: Organiser
+  author: Gines MARTINEZ
 ---
 conference: LHCP
 url: http://lhcp2018.bo.infn.it/
