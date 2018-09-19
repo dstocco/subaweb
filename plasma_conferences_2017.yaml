@@ -1,6 +1,6 @@
 ---
 conference: Université de Nantes Physics Department Career Day
-url: www.sciences-techniques.univ-nantes.fr/
+url: http://www.sciences-techniques.univ-nantes.fr
 date: November 22nd 2017
 venue: Nantes, France
 type: University Career Day
@@ -42,6 +42,9 @@ contributions:
 - type: Invited Plenary Talk
   title: ALICE Detector Upgrades
   author: Gines MARTINEZ
+- type: Talk
+  title: Quarkonium production in pp and p-A collisions with ALICE at the LHC
+  author: Astrid MORREALE
 ---
 conference: European Physical Society Conference on High Energy Physics 2017 (EPS-HEP)
 url: http://eps-hep2017.eu/index.html
