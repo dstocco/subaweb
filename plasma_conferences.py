@@ -15,16 +15,19 @@ def printContribution(conf, outFile):
         return 1
     contributions = conf['contributions']
 
+    outFile.write('\n    <ul style="list-style-type: disc";>\n')
     for contrib in contributions:
-        if ( len(contributions) > 1 ):
-            outFile.write('<br/>')
-        outFile.write(' ' + contrib['type'])
+        # if ( len(contributions) > 1 ):
+        #     outFile.write('<br/>')
+        outFile.write('      <li>' + contrib['type'] + ': ')
         if contrib.get('title'):
-            outFile.write(': <em>' + contrib['title'] + '</em>')
+            outFile.write('<em>' + contrib['title'] + '</em>, ')
         if contrib.get('author'):
-            outFile.write(', ' + contrib['author'])
+            outFile.write(contrib['author'])
         if contrib.get('proceedings'):
             outFile.write('. Proceedings <a href="' + contrib['proceedings'] + '">here</a>')
+        outFile.write('</li>\n')
+    outFile.write('    </ul>\n')
     return 0
 
 def printConference(conf, outFile):
@@ -42,7 +45,7 @@ def printConference(conf, outFile):
             outFile.write(' ' + str(conf['participants']) + ' participants')
         outFile.write('.')
     printContribution(conf,outFile)
-    outFile.write('</li>\n')
+    outFile.write('  </li>\n')
     return 0
 
 
