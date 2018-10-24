@@ -1,4 +1,18 @@
 ---
+conference: 37th Joliot-Curie International School
+url: http://ejc2018.sciencesconf.org/
+date: May 7 - 12th 2018
+venue: La Grande Motte, France
+type: International School
+participants: 50
+contributions:
+- type: Poster
+  title: Measuring isolated photons in p-Pb collisions at 5.02 TeV with the ALICE Experiment at the LHC
+  author: Erwann MASSON
+- type: Poster
+  title: Z boson production in p-Pb collisions at sqrt(s_(NN)) = 8.16 TeV with the muon spectrometer in ALICE
+  author: Ophélie BUGNON
+---
 conference: EuNPC
 url: http://www.eunpc2018.infn.it
 date: September 2nd - 7th 2018
