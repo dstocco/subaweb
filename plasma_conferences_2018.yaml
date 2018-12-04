@@ -1,4 +1,17 @@
 ---
+conference: QNP18
+url: https://www-conf.kek.jp/qnp2018/index.html
+date: Novemebr 13th - 17th 2018
+venue: Tsukuba, Japan
+type: International Conference
+participants: 193
+contributions:
+- type: Talk
+  title: Electroweak bosons measurements in p-Pb and Pb-Pb collisions at sqrt(s_(NN) = 5.02 TeV with ALICE
+  author: Diego STOCCO
+- type: IAC member
+  author: Gines MARTINEZ
+---
 conference: 37th Joliot-Curie International School
 url: http://ejc2018.sciencesconf.org/
 date: May 7 - 12th 2018
