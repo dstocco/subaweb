@@ -1,178 +1,232 @@
 ---
 conference: Université de Nantes Physics Department Career Day
 url: http://www.sciences-techniques.univ-nantes.fr
-date: November 22nd 2017
+start: 2017-11-02
+end: 2017-11-02
 venue: Nantes, France
 type: University Career Day
 participants: 150
 contributions:
-- type: Invited Talk
+- type: Talk
+  invited: Yes
   title: 'A PhD in physics: why not me?'
-  author: Erwann MASSON
+  firstname: Erwann
+  lastname: Masson
 ---
 conference: Rencontres QGP France 2017
 url: https://indico.cern.ch/event/639092/
-date: October 9th - 12th 2017
+start: 2017-10-09
+end: 2017-10-12
 venue: Etretat, France
 type: National Conference
 participants: 44
 contributions:
 - type: Talk
+  invited: No
   title: Isolated photon measurement in pp and p–Pb collisions at LHC with ALICE
-  author: Erwann MASSON
+  firstname: Erwann
+  lastname: Masson
 - type: Talk
+  invited: No
   title: ALICE Data Preparation Group
-  author: Marie GERMAIN
+  firstname: Marie
+  lastname: Germain
 - type: Talk
+  invited: No
   title: MID O2
-  author: Gabriele Gaetano FRONZÉ
+  firstname: Gabriele Gaetano
+  lastname: Fronzé
 - type: Organiser
-  author: Gines MARTINEZ
+  firstname: Gines
+  lastname: Martinez
 ---
 conference: SQM 2017
 url: https://indico.cern.ch/event/576735/overview
-date: July 10th - 15th 2017
+start: 2017-07-10
+end: 2017-07-15
 venue: Utrecht, Netherland
 type: International Conference
 participants: 200
 contributions:
 - type: Talk
+  invited: No
   title: Quarkonium production in Pb-Pb collisions at sqrt(s_NN) = 5.02 TeV with ALICE
-  author: Audrey FRANCISCO
+  firstname: Audrey
+  lastname: Francisco
 - type: Invited Plenary Talk
   title: ALICE Detector Upgrades
-  author: Gines MARTINEZ
+  firstname: Gines
+  lastname: Martinez
 - type: Talk
+  invited: No
   title: Quarkonium production in pp and p-A collisions with ALICE at the LHC
-  author: Astrid MORREALE
+  firstname: Astrid
+  lastname: Morreale
 ---
 conference: European Physical Society Conference on High Energy Physics 2017 (EPS-HEP)
 url: http://eps-hep2017.eu/index.html
-date: July 5th - 12th 2017
+start: 2017-07-05
+end: 2017-07-12
 venue: Venice, Italy
 type: International Conference
 participants: 969
 contributions:
 - type: Talk
+  invited: No
   title: Jet production in pp and p-Pb collisions with the ALICE experiment at LHC
-  author: Alexandre SHABETAI
+  firstname: Alexandre
+  lastname: Shabetai
 ---
 conference: 9th ALICE ITS Upgrade, MFT and O2 Asian Workshop
 url: https://indico.cern.ch/event/623985/
-date: June 26th - 27th 2017
+start: 2017-06-26
+end: 2017-06-27
 venue: Pusan, South Korea
 type: International Workshop
 participants: 61
 contributions:
 - type: Talk
+  invited: No
   title: MFT Project Status
-  author: Gines MARTINEZ
+  firstname: Gines
+  lastname: Martinez
 ---
 conference: Programme de Séminaires du LPC
 url: https://indico.in2p3.fr/event/14112/
-date: May 22nd 2017
+start: 2017-05-22
+end: 2017-05-22
 venue: Clermont Ferrand, France
 type: National Conference
 participants: 25
 contributions:
-- type: Invited Talk
+- type: Talk
+  invited: Yes
   title: Quarkonium production in heavy ion collisions at the LHC
-  author: Gines MARTINEZ
+  firstname: Gines
+  lastname: Martinez
 ---
 conference: The sixth joint workshop of the France Korea (FKPPL) and France Japan (TYL/FJPPL) International Associated Particle Physics Laboratories
 url: https://indico.lal.in2p3.fr/event/3425/
-date: May 10th - 12th 2017
+start: 2017-05-10
+end: 2017-05-12
 venue: Strasbourg, France
 type: France-Korea-Japan Workshop
 participants: 100
 contributions:
 - type: Talk
+  invited: No
   title: Project HAD_02
-  author: Gines MARTINEZ
+  firstname: Gines
+  lastname: Martinez
 - type: Talk
+  invited: No
   title: ALICE upgrades for QGP physics at forward rapidity
-  author: Gines MARTINEZ
+  firstname: Gines
+  lastname: Martinez
 ---
 conference: LHCP 2017
 url: http://lhcp2017.physics.sjtu.edu.cn/node/29
-date: May 15th - 20th
+start: 2017-05-15
+end: 2017-05-20
 venue: Shanghai, China
 type: International conference
 participants: 500
 contributions:
 - type: Convener of the Performance parallel session
-  author: Marie GERMAIN
+  firstname: Marie
+  lastname: Germain
 ---
 conference: FCPPL Quarkonium Production Workshop
 url: https://indico.cern.ch/event/589698/
-date: March 28th - 30th 2017
+start: 2017-03-28
+end: 2017-03-30
 venue: Beijing, China
 type: Franco-Chinese Workshop
 participants: 30
 contributions:
 - type: Talk
+  invited: No
   title: On the Psi(2S) over J/psi production yield in pp and pA collisions
-  author: Gines MARTINEZ
+  firstname: Gines
+  lastname: Martinez
 ---
 conference: 10th workshop of the France China Particle Physics Laboratory (FCPPL)
 url: http://indico.ihep.ac.cn/event/6651/
-date: March 27th - 30th 2017
+start: 2017-03-27
+end: 2017-03-30
 venue: Beijing, China
 type: Franco-Chinese Workshop
 participants: 100
 contributions:
 - type: Talk
+  invited: No
   title: Double-Parton Scattering and Underlying Event measurements in ALICE
-  author: Diego Stocco
+  firstname: Diego
+  lastname: Stocco
 ---
 conference: Rencontres de Moriond
 url: http://moriond.in2p3.fr/QCD/2017/
-date: March 25th - April 1st 2017
+start: 2017-03-25
+end: 2017-04-01
 venue: La thuile, Vallée d'Aoste, Italie
 type: International conference
 participants: 100
 contributions:
-- type: Invited contribution
+- type: Talk
+  invited: Yes
   title: Quarkonia and open heavy flavour production with ALICE
-  author: Philippe PILLOT
+  firstname: Philippe
+  lastname: Pillot
 ---
 conference: Mont Saint Odile Think Tank
 url: https://indico.cern.ch/event/533256/
-date: Feb 11th-13th 2017
+start: 2017-02-11
+end: 2017-02-13
 venue: Loyola University, WoodStock, USA
 type: International Workshop
 participants: 50
 contributions:
 - type: Member of the think thank for quarkonia
-  author: Gines MARTINEZ
+  firstname: Gines
+  lastname: Martinez
 ---
 url: http://qm2017.phy.uic.edu
 conference: Quark Matter 2017
-date: February 5th - 11th 2017
+start: 2017-02-05
+end: 2017-02-11
 venue: Chicago, USA
 type: International Workshop
 participants: 700
 contributions:
 - type: Talk
+  invited: No
   title: Electroweak boson production in p-Pb and Pb-Pb collisions at 5.02 TeV with ALICE
-  author: Diego STOCCO
+  firstname: Diego
+  lastname: Stocco
   proceedings: https://www.sciencedirect.com/science/article/pii/S0375947417301689?via%3Dihub
 - type: Talk
+  invited: No
   title: Direct photon measurements in pp and Pb-Pb collisions with ALICE
-  author: Marie GERMAIN
+  firstname: Marie
+  lastname: Germain
   proceedings: https://inspirehep.net/record/1628270/files/Fulltext.pdf
 - type: Poster
   title: Measurements of jet fragmentation functions and of their moments in pp collisions at 2.76 TeV with the ALICE detector
-  author: Alexandre SHABETAI
+  firstname: Alexandre
+  lastname: Shabetai
 - type: Poster
   title: J/psi production in pp collisions at sqrt(s) = 5.02 TeV measured at forward rapidity with ALICE at the LHC
-  author: Benjamin AUDURIER
+  firstname: Benjamin
+  lastname: Audurier
 ---
 conference: Seminar in the Physics Institut of Heidelberg University
 url: http://www.physi.uni-heidelberg.de/Veranstaltungen/vortraege.php?kol=ALL&amp;sem=WS16/17
-date: January 13th 2017
+start: 2017-01-13
+end: 2017-01-13
 venue: Heidelberg, Germany
 contributions:
 - type: Seminar
+  invited: No
   title: Quarkonium production in heavy ion collisions at the LHC
-  author: Gines MARTINEZ
+  firstname: Gines
+  lastname: Martinez

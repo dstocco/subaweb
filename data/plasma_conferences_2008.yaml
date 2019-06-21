@@ -1,120 +1,172 @@
 ---
 conference: '1st International Workshop on Multiple Partonic Interactions at the LHC: MPI@LHC08'
 url:
-date: October 27th - 31st 2008
+start: 2008-10-27
+end: 2008-10-31
 venue: Perugia, Italie
 contributions:
 - type: Talk
+  invited: No
   title: 'Jet reconstruction in heavy ion collisions: emphasis on underlying event background subtraction'
-  author: Magali ESTIENNE
+  firstname: Magali
+  lastname: Estienne
 ---
 conference: Physics at LHC
 url:
-date: September 29th - October 4th 2008
+start: 2008-09-29
+end: 2008-10-04
 venue: Split, Croatie
 contributions:
 - type: Talk
+  invited: No
   title:  Heavy flavour in ALICE
-  author: Philippe PILLOT for the ALICE collaboration
+  firstname: Philippe
+  lastname: Pillot
+  collaboration: ALICE
 ---
 conference: Journées QGP-France 2008 
 url:
-date: September 15th - 18th 2008
+start: 2008-09-15
+end: 2008-09-18
 venue: Etretat, France
 contributions:
 - type: Talk
+  invited: No
   title:  Jets dans STAR
-  author: Magali ESTIENNE for the STAR collaboration
+  firstname: Magali
+  lastname: Estienne 
+  collaboration: STAR
 - type: Talk
+  invited: No
   title:  Mesure du charme en single Muons dans ALICE
-  author: Nicolas LEBRIS for the ALICE collaboration
+  firstname: Nicolas
+  lastname: Lebris
+  collaboration: ALICE
 - type: Talk
+  invited: No
   title: 'Processus durs dans les collisions pp au LHC avec ALICE : Production de photons et jets'
-  author: Raphaelle ICHOU
+  firstname: Raphaelle
+  lastname: Ichou
 - type: Talk
+  invited: No
   title:  Acceptance et efficacité de detection des pions neutres avec PHOS
-  author: Lamia BENHABIB for the ALICE collaboration
-- type: Invited Talk
+  firstname: Lamia
+  lastname: Benhabib
+  collaboration: ALICE
+- type: Talk
+  invited: Yes
   title: Etat Général d'ALICE
-  author: Gines MARTINEZ for the ALICE collaboration
+  firstname: Gines
+  lastname: Martinez
+  collaboration: ALICE
 ---
 conference: 'Hot Quark 2008: Workshop for young scientists on the physics of ultra relativistic nucleus-nucleus collisions '
 url:
-date: August 18th - 23rd 2008
+start: 2008-08-18
+end: 2008-08-23
 venue: Aspen Lodge, Colorado, USA
 contributions:
 - type: Talk
+  invited: No
   title: 'ALICE-PHOS: Acceptance and efficiency correction factors p- p ---&gt; pi0 + X at 10-TeV'
-  author: Lamia BENHABIB for the ALICE Collaboration
+  firstname: Lamia
+  lastname: Benhabib
+  collaboration: ALICE
 ---
 conference: Hard Probes 2008
 url: http://www-fp.usc.es/hp2008/HP2008.html
-date: June 8th - 14th 2008
+start: 2008-06-08
+end: 2008-06-14
 venue: Isla de la Toja, Spain
 contributions:
 - type: Talk
+  invited: No
   title: Consequence of Lambda_c/D enhancement effect on the non-photonic electron nuclear modification factor in central heavy ioin collisions ar RHIC energy
-  author: Gines MARTINEZ
+  firstname: Gines
+  lastname: Martinez
 ---
 conference: Journes de la division Physique Nuclaire de la Société Française de Physique.
 url: https://indico.in2p3.fr/conferenceDisplay.py?ovw=True&amp;confId=647
-date: May 13th - 14th 2008
+start: 2008-05-13
+end: 2008-05-14
 venue: Nantes, France
 contributions:
 - type: Talk
+  invited: No
   title: Le charme ouvert dans STAR, avec ou sans Heavy Flavor Tracker ?
-  author: Alexandre SHABETAI
+  firstname: Alexandre
+  lastname: Shabetai
 ---
 conference: International Workshop on LHC Heavy Ion Physics, 
 url:
-date: May 21st - 24th 2008
+start: 2008-05-21
+end: 2008-05-25
 venue: Wuhan, Chine
 contributions:
 - type: Talk
+  invited: No
   title: Physics Perspectives with ALICE EMCAL
-  author: Marie GERMAIN for the ALICE collaboration
+  firstname: Marie
+  lastname: Germain
+  collaboration: ALICE
 ---
 conference: Séminaire au Laboratoire SUBATECH
 url:
-date: May 14th 2008
+start: 2008-05-14
+end: 2008-05-14
 venue: Nantes, France
 contributions:
 - type: Talk
+  invited: No
   title: Le futur du RHIC sera t'il charmant ?
-  author: Alexandre SHABETAI
+  firstname: Alexandre
+  lastname: Shabetai
 ---
 conference: Journées de la division Physique Nuclaire de la Société Française de Physique
 url: https://indico.in2p3.fr/conferenceDisplay.py?ovw=True&amp;confId=647
-date: May 14th 2008
+start: 2008-05-13
+end: 2008-05-13
 venue: Nantes, France
 contributions:
-- type: Invited Talk
+- type: Talk
+  invited: Yes
   title: Evolution des sondes dures pour la physique des ions lourds du RHIC au LHC
-  author: Marie GERMAIN
+  firstname: Marie
+  lastname: Germain
 ---
 conference: Ecole des Houches 
 url: http://ipht.cea.fr/Pisp/francois.gelis/Workshops/Houches2008/
-date: March 2008
+start: 2008-03-25
+end: 2008-03-25
 venue: Les Houches, France
 contributions:
-- type: Invited Talk
+- type: Talk
+  invited: Yes
   title:  Jet reconstruction performance in ALICE
-  author: M. ESTIENNE
+  firstname: Magali
+  lastname: Estienne
 ---
 conference:  Quark Matter 2008
 url: http://qm2008.bnl.gov/
-date: February 4th - 10th 2008
+start: 2008-02-04
+end: 2008-02-10
 venue: Jaipur, India
 contributions:
 - type: Talk
+  invited: No
   title: A measurement of the open charm cross-section in sqrt_sNN = 200 GeV Cu+Cu collisions at STAR experiment at RHIC
-  author: Alexandre SHABETAI for the STAR collaboration
+  firstname: Alexandre
+  lastname: Shabetai 
+  collaboration: STAR
 ---
 conference: 'Workshop on Parton fragmentation processes: in the vacuum and in the medium'
 url: http://indico.cern.ch/conferenceDisplay.py?confId=18684
-date: February 2008
+start: 2008-02-25
+end: 2008-02-29
 venue: Trento, Italie
 contributions:
-- type: Invited Talk
+- type: Talk
+  invited: Yes
   title: Jet reconstruction performance in the ALICE experiment 
-  author: M. ESTIENNE
+  firstname: Magali
+  lastname: Estienne

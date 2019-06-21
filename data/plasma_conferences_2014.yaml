@@ -1,142 +1,199 @@
 ---
 conference: Hot Quarks 2014
 url: http://hq2014.bnl.gov
-date: September 21st - 28th 2014
+start: 2014-09-21
+end: 2014-09-28
 venue: Las Negras, Andalucia, Spain
 contributions:
 - type: Talk
+  invited: No
   title: Inclusive J/psi production in pp, p-Pb and Pb-Pb collisions with ALICE at the LHC
-  author: Javier Martin Blanco
+  firstname: Javier
+  lastname: Martin Blanco
 - type: Talk
+  invited: No
   title: Measurement of W-boson production in p-Pb collisions at 5.02 TeV with ALICE at the LHC
-  author: Jianhui Zhu
+  firstname: Jianhui
+  lastname: Zhu
 ---
 conference: Rencontres QGP-France 2014
 url: http://llr.in2p3.fr/sites/qgp2014/
-date: September 15th - 18th 2014 
+start: 2014-09-15
+end: 2014-09-18
 venue: Etretat, France
 contributions:
 - type: Talk
+  invited: No
   title: Selected highlights from RHIC 
-  author: Sonia Kabana
+  firstname: Sonia
+  lastname: Kabana
 - type: Talk
+  invited: No
   title: Particle rapidity distribution in proton-nucleus collisions using the proton-contributor reference frame
-  author: Gines Martinez
+  firstname: Gines
+  lastname: Martinez
 - type: Talk
+  invited: No
   title: Enhancement of J/psi RAA at low pT in Pb-Pb collisions at 2.76 TeV
-  author: Laure Massacrier
+  firstname: Laure
+  lastname: Massacrier
 - type: Talk
+  invited: No
   title: Progress towards AFTER@LHC
-  author: Laure Massacrier
+  firstname: Laure
+  lastname: Massacrier
 - type: Talk
+  invited: No
   title: Measurement of isolated-photon jet correlations with ALICE
-  author: Denise Aparecida Moreira de Godoy
+  firstname: Denise
+  lastname: Aparecida Moreira de Godoy
 - type: Talk
+  invited: No
   title: Isolated photon cross section studies in ALICE experiment
-  author: Lucile Ronflette
+  firstname: Lucile
+  lastname: Ronflette
 - type: Talk
+  invited: No
   title: Measurement of W-boson production in p-Pb collisions at 5.02 TeV with ALICE
-  author: Jianhui Zhu
+  firstname: Jianhui
+  lastname: Zhu
 ---
 conference: 10th International Workshop on High-pT Physics at RHIC/LHC era
 url: https://indico.cern.ch/event/289665/
-date: September 9th - 12th 2014
+start: 2014-09-09
+end: 2014-09-12
 venue: Nantes, France
 type: International Workshop organised by Subatech
 contributions:
 - type: Talk
+  invited: No
   title: Jet and high pT hadron production overview from STAR 
-  author: Sonia Kabana
+  firstname: Sonia
+  lastname: Kabana
 - type: Talk
+  invited: No
   title: Particle rapidity distribution in proton-nucleus collisions using the proton-contributor reference frame
-  author: Gines Martinez
+  firstname: Gines
+  lastname: Martinez
 - type: Talk
+  invited: No
   title: Measurements of heavy-flavour decay leptons with ALICE
-  author: Denise Aparecida Moreira de Godoy
+  firstname: Denise
+  lastname: Aparecida Moreira de Godoy
 ---
 conference: X Workshop on Particle Correlations and Femtoscopy
 url: https://indico.cern.ch/event/300974
-date: August 25th - 29th 2014
+start: 2014-08-25
+end: 2014-08-29
 venue: Gyöngyös, Hongrie
 contributions:
 - type: Talk
+  invited: No
   title: Correlations and elliptic azimuthal anisotropy of heavy flavours measured with ALICE
-  author: Denise Aparecida Moreira de Godoy
+  firstname: Denise
+  lastname: Aparecida Moreira de Godoy
 ---
 conference: Frontiers of Fundamental Physics 2014
 url: http://ffp14.cpt.univ-mrs.fr/
-date: July 15th - 18th 2014
+start: 2014-07-15
+end: 2014-07-18
 venue: Marseille, France
 contributions:
 - type: Talk
+  invited: No
   title: ALICE results in p--Pb collisions at the LHC
-  author: Diego STOCCO
+  firstname: Diego
+  lastname: Stocco
 ---
 conference: Large Hadron Collider Physics (LHCP) Conference
 url:
-date: June 2nd - 7th 2014
+start: 2014-06-02
+end: 2014-06-07
 venue: Columbia University, New York City, USA
 contributions:
 - type: Talk
+  invited: No
   title: Probing hot and dense matter production in heavy ion collisions via neutral mesons and photons
-  author: Astrid Morreale
+  firstname: Astrid
+  lastname: Morreale
 ---
 conference: Quark Matter 2014
 url: http://qm2014.gsi.de/
-date: May 19th - 24th 2014
+start: 2014-05-19
+end: 2014-05-24
 venue: Darmstadt, Germany
 contributions:
 - type: Talk
+  invited: No
   title: J/psi production in p-Pb collisions with ALICE at the LHC 
-  author: Javer Martin Blanco
+  firstname: Javier
+  lastname: Martin Blanco
 - type: Poster
   title: Low pT J/psi in Pb-Pb collisions at forward rapidity with ALICE at the LHC 
-  author: Laure Massacrier
+  firstname: Laure
+  lastname: Massacrier
 - type: Poster
   title: Feasibility study for the measurement of the elliptic azimuthal anisotropy of electrons from semileptonic decays of beauty hadrons in Pb-Pb collisions at \sqrt{s_{NN}} = 2.76 TeV with ALICE
-  author: Denise Aparecida Moreira de Godoy
+  firstname: Denise
+  lastname: Aparecida Moreira de Godoy
 ---
 conference: Seminar Physics Departement of University of Liverpool
 url: https://www.liv.ac.uk/events/event.php?event_id=64850&amp;event_day_id=70165
-date: Apr 23rd 2014
+start: 2014-04-23
+end: 2014-04-23
 venue: Liverpool, UK
 contributions:
 - type: Seminar
   title: The hadronic matter and heavy ion collisions at relativistic energies
-  author: Gines MARTINEZ
+  firstname: Gines
+  lastname: Martinez
 ---
 conference: 7th France China Particle Physics Laboratory (FCPPL) Workshop
 url: https://indico.in2p3.fr/event/8719
-date: April 8th - 10th 2014
+start: 2014-04-08
+end: 2014-04-10
 venue: Clermont-Ferrand, France
 contributions:
 - type: Talk
+  invited: No
   title: Measurement of W Boson at Forward Rapidity in p-Pb collisions at 5.02 TeV with ALICE
-  author: Jianhui Zhu
+  firstname: Jianhui
+  lastname: Zhu
 - type: Talk
+  invited: No
   title: 'Jets in ALICE: from global to differential measurements'
-  author: Mengliang WANG
+  firstname: Mengliang
+  lastname: Wang
 - type: Talk
-  title: Muon Forward TRAcker of ALICE
-  author: Gines Martinez
+  invited: No
+  title: Muon Forward Tracker of ALICE
+  firstname: Gines
+  lastname: Martinez
 ---
 conference:  ALICE Physics Analysis and Tier-1/2 Workshop
 url: https://indico.cern.ch/event/274974
-date: March 3rd - 8th 2014
+start: 2014-03-03
+end: 2014-03-08
 venue: Tsukuba, Japan
 contributions:
 - type: Talk 
   title: Isolated Photon Cross-Section in pp at 7 TeV with ALICE
-  author: Marie Germain
+  firstname: Marie
+  lastname: Germain
 - type: Talk
+  invited: No
   title: Jets in ALICE
-  author: Alexandre SHABETAI
+  firstname: Alexandre
+  lastname: Shabetai
 ---
 conference:  Probing the strong interaction at a fixed target experiment with the LHC beams
 url: https://indico.in2p3.fr/event/8591/
-date: January 12th - 17th 2014
+start: 2014-01-12
+end: 2014-01-17
 venue: Les Houches, France
 contributions:
 - type: Talk
+  invited: No
   title: Overview of MC tools 
-  author: Laure Massacrier
+  firstname: Laure
+  lastname: Massacrier

@@ -1,136 +1,175 @@
 ---
 conference: Workshop on discovery physics at the LHC, Kruger 2016 
 url: http://kruger2016.tlabs.ac.za/
-date: December 5th - 9th 2016
+start: 2016-12-05
+end: 2016-12-09
 venue: Protea Hotel Kruger Gate, Mpumulanga, South Africa
 type: International Workshop
 participants: 110
 contributions:
-- type: Talk invited
+- type: Talk
+  invited: Yes
   title: Open Heavy Flavour at the LHC
-  author: Diego STOCCO
+  firstname: Diego
+  lastname: Stocco
 - type: Members of the International Advisory Committee
 ---
 conference: Reunion annuelle du "Groupement de Recherche" QCD 2016 
 url: https://indico.in2p3.fr/event/13444/
-date: November 8th - 10th 2014
+start: 2016-11-08
+end: 2016-11-10
 venue: Orsay, France
 type: National Workshop
 participants: 50
 contributions:
-- type: Invited Talk
+- type: Talk
+  invited: Yes
   title: J/psi v2 measured by ALICE in Pb-Pb collisions
-  author: Audrey FRANCISCO
+  firstname: Audrey
+  lastname: Francisco
 ---
 conference: Rencontres QGP France 2016 
 url: http://llr.in2p3.fr/sites/qgp2016/
-date: September 15th - 18th 2014
+start: 2016-09-15
+end: 2016-09-18
 venue: Etretat, France
 type: National Workshop
 participants: 50
 contributions: 
 - type: Talk
+  invited: No
   title: First results for J/psi elliptic flow in PbPb at 5.02 TeV 
-  author: Audrey FRANCISCO
+  firstname: Audrey
+  lastname: Francisco
 - type: Talk
+  invited: No
   title: Overview of charmonium production in pp collisions 
-  author: Astrid MORREALE
+  firstname: Astrid
+  lastname: Morreale
 - type: Talk
+  invited: No
   title: On the relative suppression of Psi(2S) with respect to J/psi in p-Pb collisions at the LHC 
-  author: Gines MARTINEZ
+  firstname: Gines
+  lastname: Martinez
 - type: Members of the Organising Committee
 ---
 conference: Hot Quarks 2016
 url: http://hq2016.bnl.gov/
-date: September 12th - 17th 2016
+start: 2016-09-12
+end: 2016-09-17
 venue: South Padre Island, TX, USA
 type: International Workshop
 participants: 80
 contributions:
 - type: Talk
+  invited: No
   title: Inclusiive J/psi production in PbPb with the ALICE Muon spectrometer
-  author: Benjamin AUDURIER
+  firstname: Benjamin
+  lastname: Audurier
   proceedings: http://iopscience.iop.org/article/10.1088/1742-6596/832/1/012027/pdf
 ---
 conference: 6th ALICE ITS upgrade, MFT and O2 Asian Workshop 
 url: https://indico.cern.ch/event/484521/
-date: July 26th - 28th 2016
+start: 2016-07-26
+end: 2016-07-28
 venue: Jakarta, Indonesia
 type: International Workshop
 participants: 50
 contributions:
 - type: Talk
+  invited: No
   title: MFT Ladder and Disk Assembly
-  author: Stephane BOUVIER
+  firstname: Stephane
+  lastname: Bouvier
 - type: Member of the Organising Committee
 ---
 conference: 5th International Conference on New Frontiers in Physics
 url: https://indico.cern.ch/event/442094/
-date: July 6th - 14th 2016
+start: 2016-07-06
+end: 2016-07-14
 venue: Kolymbari, Greece
 type: International Conference
 participants: 200
 contributions:
 - type: Talk
+  invited: No
   title: Neutral mesons and direct photon measurements with the ALICE experiment
-  author: Lucille RONFLETTE
+  firstname: Lucile
+  lastname: Ronflette
 ---
 conference: SQM 2016
 url: https://indico.cern.ch/event/403913/contributions/1849252/
-date: June 27th - July 1st 2016
+start: 2016-06-27
+end: 2016-07-01
 venue: UC Berkeley, USA
 type: International Conference
 participants: 125
 contributions:
 - type: Talk
+  invited: No
   title: Production of pi0, kaons and eta mesons in Pb-Pb and pp collisions at 2.76 TeV measured with the ALICE detector at the LHC 
-  author: Astrid MORREALE
+  firstname: Astrid
+  lastname: Morreale
   proceedings: http://arxiv.org/abs/1609.06106
 ---
 conference: Journées de la Société Française de Physique SFP et du Bureau de Théoriciens en Physique Nucléaire (BTPN)
 url: https://www.sfpnet.fr/les-grandes-questions-en-physique-nucleaire-fondamentale
-date: June 21st - 22nd 2016
+start: 2016-06-21
+end: 2016-06-22
 venue: Paris, France
 type: National Conference
 participants: 100
 contributions:
-- type: Invited Talk
+- type: Talk
+  invited: Yes
   title: La matière formée dans les collisions hadroniques (gaz hadronique, QGP) 
-  author: Gines MARTINEZ
+  firstname: Gines
+  lastname: Martinez
 ---
 conference: Alice Calo Meeting
 url: https://indico.cern.ch/event/506125/
-date: May 30th - June 1st 2016
+start: 2016-05-30
+end: 2016-06-01
 venue: Tokyo, Japan
 type: International Workshop
 particpants: 30
 contributions:
 - type: Talk
+  invited: No
   title: Isolated Photons in EMCAL 
-  author: Marie GERMAIN
+  firstname: Marie
+  lastname: Germain
 ---
 conference: Workshop of the ALICE Muon Spectrometer
 url: https://indico.cern.ch/event/505854/
-date: May 23rd - 27th 2016
+start: 2016-05-23
+end: 2016-05-27
 venue: Pornichet, France
 type: International Workshop
 participants: 40
 contributions:
 - type: Talk
+  invited: No
   title: The ALPIDE sensor 
-  author: Audrey Francisco
+  firstname: Audrey
+  lastname: Francisco
 - type: Talk
+  invited: No
   title: 'W boson production in pPb: progresses of analysis and status of paper'
-  author: Diego STOCCO
+  firstname: Diego
+  lastname: Stocco
 - type: Local Organising Committee
 ---
 conference: 71st Board Meeting of the EPS Nuclear Physics Division of the European Physical Society (NP-EPS)
 url: 
-date: April 18th 2016
+start: 2016-04-18
+end: 2016-04-18
 venue: IPNO, Orsay, France
 type: International Workshop
 participants: 20
 contributions:
-- type: Invited Talk
+- type: Talk
+  invited: Yes
   title: Quark Gluon Plasma and Heavy Ion Physics at the LHC and related French activities
-  author: Gines MARTINEZ
+  firstname: Gines
+  lastname: Martinez

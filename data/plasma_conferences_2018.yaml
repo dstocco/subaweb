@@ -1,157 +1,207 @@
 ---
 conference: QNP18
 url: https://www-conf.kek.jp/qnp2018/index.html
-date: Novemebr 13th - 17th 2018
+start: 2018-11-13
+end: 2018-11-18
 venue: Tsukuba, Japan
 type: International Conference
 participants: 193
 contributions:
 - type: Talk
+  invited: No
   title: Electroweak bosons measurements in p-Pb and Pb-Pb collisions at sqrt(s_(NN) = 5.02 TeV with ALICE
-  author: Diego STOCCO
+  firstname: Diego
+  lastname: Stocco
 - type: IAC member
-  author: Gines MARTINEZ
+  firstname: Gines
+  lastname: Martinez
 ---
 conference: 37th Joliot-Curie International School
 url: http://ejc2018.sciencesconf.org/
-date: May 7 - 12th 2018
+start: 2018-05-07
+end: 2018-05-12
 venue: La Grande Motte, France
 type: International School
 participants: 50
 contributions:
 - type: Poster
   title: Measuring isolated photons in p-Pb collisions at 5.02 TeV with the ALICE Experiment at the LHC
-  author: Erwann MASSON
+  firstname: Erwann
+  lastname: Masson
 - type: Poster
   title: Z boson production in p-Pb collisions at sqrt(s_(NN)) = 8.16 TeV with the muon spectrometer in ALICE
-  author: Ophélie BUGNON
+  firstname: Ophélie
+  lastname: Bugnon
 ---
 conference: EuNPC
 url: http://www.eunpc2018.infn.it
-date: September 2nd - 7th 2018
+start: 2018-09-02
+end: 2018-09-07
 venue: Bologna, Italy
 type: International Workshop
 participants: 120
 contributions:
 - type: Talk
+  invited: No
   title: Study of quarkonium production in p-A and AA collisions with ALICE at the LHC
-  author: Gabriele Gaetano FRONZÉ
+  firstname: Gabriele Gaetano
+  lastname: Fronzé
 ---
 conference: Seminar at the Yale University
 url: https://wlab.yale.edu/event/nuclear-particle-astrophysics-npa-seminar-audrey-francisco-cern-quarkonium-states-probe-qgp
-date: July 26th 2018
+start: 2018-07-26
+end: 2018-07-26
 venue: New Haven, USA
 contributions:
 - type: Seminar
+  invited: No
   title: Quarkonium states as a probe of QGP at LHC
-  author: Audrey FRANCISCO
+  firstname: Audrey
+  lastname: Francisco
 ---
 conference: QCD18 - 21st High-Energy Physics International Conference in Quantum Chromodynamics
 url: http://www.lupm.univ-montp2.fr/users/qcd/qcd18/Welcome.html
-date: July 2nd - 6th 2018
+start: 2018-07-02
+end: 2018-07-06
 venue: Montpellier, France
 type: International Conference
 participants: 43
 contributions:
 - type: Talk
+  invited: No
   title: Quarkonia production with ALICE at the LHC
-  author: Astrid MORREALE
+  firstname: Astrid
+  lastname: Morreale
 ---
 conference: Recontres QGP France 2018
 url: https://indico.cern.ch/event/706294/
-date: July 2nd - 5th 2018
+start: 2018-07-02
+end: 2018-07-05
 venue: Etretat, France
 type: National Conference
 participants: 50
 contributions:
 - type: Talk
+  invited: No
   title: What can be learned from j/psi elliptic flow results ?
-  author: Audrey FRANCISCO
+  firstname: Audrey
+  lastname: Francisco
 - type: Talk
+  invited: No
   title: Isolated photon measurement in pp and p–Pb collisions at LHC with the ALICE Experiment
-  author: Erwann MASSON
+  firstname: Erwann
+  lastname: Masson
 - type: Talk
+  invited: No
   title: Big Data and Big Science - Tossing a trick coin
-  author: Gabriele Gaetano FRONZÉ
+  firstname: Gabriele Gaetano
+  lastname: Fronzé
 - type: Talk
+  invited: No
   title: Mesure de la production du boson Z dans les collisions p-Pb à sqrt(s_NN) = 8.16 TeV avec ALICE
-  author: Ophelie BUGNON
+  firstname: Ophélie
+  lastname: Bugnon
 - type: Organiser
-  author: Gines MARTINEZ
+  firstname: Gines
+  lastname: Martinez
 ---
 conference: LHCP
 url: http://lhcp2018.bo.infn.it/
-date: June 4th - 9th 2018
+start: 2018-06-04
+end: 2018-06-09
 venue: Bologna, Italy
 type: International Conference
 participants: 425
 contributions:
 - type: Talk
+  invited: No
   title: Electroweak bosons measurement in p-Pb and Pb-Pb collisions
-  author: Mohamad TARHINI
+  firstname: Mohamad
+  lastname: Tarhini
 - type: Convener of the Parallel Section Electroweak
-  author: Diego STOCCO
+  firstname: Diego
+  lastname: Stocco
 ---
 conference: Seminar at Liverpool University
 url:
-date: May 22nd 2018
+start: 2018-05-22
+end: 2018-05-22
 venue: Liverpool, UK
 contributions:
 - type: Seminar
+  invited: No
   title: The interplay between open and closed heavy flavors at LHC
-  author: Audrey FRANCISCO
+  firstname: Audrey
+  lastname: Francisco
 ---
 conference: Quark matter
 url: https://qm2018.infn.it/
-date: May 13th - 19th 2018
+start: 2018-05-13
+end: 2018-05-19
 venue: Venice, Italy
 type: International Conference
 participants: 854
 contributions:
 - type: Talk
+  invited: No
   title: Electroweak bosons measurement in p-Pb and Pb-Pb collisions
-  author: Mohamad TARHINI
+  firstname: Mohamad
+  lastname: Tarhini
 - type: Poster
   title: Measurement of isolated photons in p–Pb collisions at 5.02 TeV with the EMCal detector in ALICE
-  author: Erwann MASSON, on behalf of the ALICE Collaboration
+  firstname: Erwann
+  lastname: Masson
+  collaboration: ALICE
 ---
 conference: Rencontres Ions lourds
 url: http://llr.in2p3.fr/~fleuret/wikiil/wakka.php?wiki=RencontresIonsLourds
-date: March 8th 2018
+start: 2018-03-08
+end: 2018-03-08
 venue: Orsay, France
 contributions:
 - type: Talk
+  invited: No
   title: J/psi v2
-  author: Audrey FRANCISCO
+  firstname: Audrey
+  lastname: Francisco
 ---
 conference: Winter Workshop on Nuclear Dynamics
 url: https://indico.cern.ch/event/664310/
-date: March 25th - 31st 2018
+start: 2018-03-25
+end: 2018-03-31
 venue: Deshaies, Guadeloupe
 type: International Workshop
 participants: 50
 contributions:
 - type: Talk
+  invited: No
   title: Quarkonium in A-A collisions with ALICE
-  author: Audrey FRANCISCO
+  firstname: Audrey
+  lastname: Francisco
   proceedings: http://iopscience.iop.org/article/10.1088/1742-6596/1070/1/012013
 ---
 conference: '133rd LHCC meeting: LHC students poster session'
 url: https://indico.cern.ch/event/692482/
-date: February 28th 2018
+start: 2018-02-28
+end: 2018-02-28
 venue: CERN, Geneva, Switzerland
 contributions:
 - type: Poster
   title: JPsi flow with ALICE
-  author: Audreay FRANCISCO
+  firstname: Audrey
+  lastname: Francisco
 ---
 conference: ALICE Physics Week
 url: https://indico.cern.ch/event/687851/
-date: February 5th - 9th 2018
+start: 2018-02-05
+end: 2018-02-09
 venue: Frascati, Italy
 type: Collaboration Conference
 participants: 116
 contributions:
-- type: Invited Talk
+- type: Talk
+  invited: Yes
   title: Overview of isolated photon and photon-hadron correlation measurements for different collision systems
-  author: Erwann MASSON, on behalf of the ALICE photon group
+  firstname: Erwann
+  lastname: Masson
+  collaboration: ALICE

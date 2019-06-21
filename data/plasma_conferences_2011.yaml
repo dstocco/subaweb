@@ -1,78 +1,111 @@
 ---
 conference: QWG 2011
 url: http://qwg2011.gsi.de/
-date: October 3rd - 7th 2011
+start: 2011-10-03
+end: 2011-10-07
 venue: GSI Darmstadt, Germany
 contributions:
-- type: Invited Talk
+- type: Talk
+  invited: Yes
   title: Quarkonium production measurement with the ALICE detector at the LHC
-  author: Gines MARTINEZ for the ALICE collaboration
+  firstname: Gines
+  lastname: Martinez
+  collaboration: ALICE
 ---
 conference: l'École Joliot Curie 2011
 url: http://ejc2011.sciencesconf.org/
-date: September 12th - 17th 2011
+start: 2011-09-12
+end: 2011-09-17
 venue: La Colle sur Loup, France
 contributions:
-- type: Invited Talk
+- type: Talk
+  invited: Yes
   title: Advances in Quark Gluon Plasma
-  author: Gines MARTINEZ
+  firstname: Gines
+  lastname: Martinez
 ---
 conference: International Europhysics Conference on High Energy Physics
 url: http://eps-hep2011.eu/
-date: July 21st - 27th 2011
+start: 2011-07-21
+end: 2011-07-27
 venue: Grenoble, France
 contributions:
 - type: Talk
+  invited: No
   title: Heavy flavour measurements in Pb-Pb collisions at sqrt(sNN)=2.76 TeV with the ALICE experiment
-  author: Diego STOCCO
+  firstname: Diego
+  lastname: Stocco
 ---
 conference: 486th WE-Heraeus-Seminar Characterization of the Quark Gluon Plasma
 url: http://we-hereaus.physi.uni-heidelberg.de/
-date: July 11th - 15th 2011
+start: 2011-07-11
+end: 2011-07-15
 venue: Physikzentrum Bad Honnef, Germany
 contributions:
-- type: Invited Talk
+- type: Talk
+  invited: Yes
   title: Quarkonium production measurement with the ALICE detector at the LHC
-  author: Gines MARTINEZ for the ALICE collaboration
+  firstname: Gines
+  lastname: Martinez
+  collaboration: ALICE
 ---
 conference: High pt Probes and High-Density QCD at the LHC
 url: http://llr.in2p3.fr/sites/hphd2011/
-date: May 30th - June 1st 2011
+start: 2011-05-30
+end: 2011-06-01
 venue: Paris, France
 contributions:
-- type: Invited Talk
+- type: Talk
+  invited: Yes
   title: Photons in ALICE
-  author: Olga Driga
+  firstname: Olga
+  lastname: Driha
 ---
 conference: Quark Matter 2011
 url: http://qm2011.in2p3.fr/node/12
-date: May 23rd - 28th 2011
+start: 2011-05-23
+end: 2011-05-28
 venue: Annecy, France
 contributions:
 - type: Poster
   title: Study of the muon tracking efficiency in the ALICE muon forward spectrometer for Pb-Pb collisions at 2.76 TeV
-  author: Antoine LARDEUX for the ALICE collaboration.
+  firstname: Antoine
+  lastname: Lardeux
+  collaboration: ALICE
 - type: Talk
+  invited: No
   title: J/psi production at forward rapidity in Pb-Pb collisions at sqrt(sNN) = 2.76 TeV, measured with the ALICE detector
-  author: Philippe PILLOT for the ALICE collaboration
-- type: Invited Talk
+  firstname: Philippe
+  lastname: Pillot
+  collaboration: ALICE
+- type: Talk
+  invited: Yes
   title: Quarkonium production measurement with the ALICE detector at the LHC
-  author: Gines MARTINEZ for the ALICE collaboration
+  firstname: Gines
+  lastname: Martinez
+  collaboration: ALICE
 ---
 conference: International Workshop on First Physics with the ALICE muon spectrometer
 url:
-date: February 1st - 4th 2011
+start: 2011-02-01
+end: 2011-02-04
 venue: Kolkatta, India
 contributions:
-- type: Invited Talk
+- type: Talk
+  invited: Yes
   title: Heavy Flavours in ALICE
-  author: Gines MARTINEZ for the ALICE collaboration
+  firstname: Gines
+  lastname: Martinez
+  collaboration: ALICE
 ---
 conference:  Cracow Epiphany Conference On the First Year of the LHC 
 url: http://cdsweb.cern.ch/record/1322669
-date: January 10th - 12th 2011
+start: 2011-01-10
+end: 2011-01-12
 venue: Cracow, Poland
 contributions:
 - type: Talk
-  title:  Inclusive production of neutral mesons in ALICE 
-  author: Adam MATYJA
+  invited: No
+  title: Inclusive production of neutral mesons in ALICE 
+  firstname: Adam
+  lastname: Matyja

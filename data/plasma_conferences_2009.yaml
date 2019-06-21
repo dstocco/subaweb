@@ -1,90 +1,133 @@
 ---
 conference: Journées QGP-France 2009
 url: http://polywww.in2p3.fr/actualites/congres/qgp2009/
-date: September 15th - 17th 2009
+start: 2009-09-15
+end: 2009-09-17
 venue: Etretat, France
 contributions:
 - type: Talk
-  title:  Bilan sur le calorimètre électromagnétique d'Alice EMCal
-  author: Magali ESTIENNE for the ALICE collaboration
+  invited: No
+  title: Bilan sur le calorimètre électromagnétique d'Alice EMCal
+  firstname: Magali
+  lastname: Estienne
+  collaboration: ALICE
 - type: Talk
-  title:  Quarkonia and heavy flavours with ALICE
-  author: Diego STOCCO for the ALICE collaboration
-- type: Talk
-  title: Les améliorations dans ALICE"
-  author: Gines MARTINEZ for the ALICE collaboration
-- type: Talk
+  invited: No
   title: Quarkonia and heavy flavours with ALICE
-  author: Diego STOCCO for the ALICE collaboration
+  firstname: Diego
+  lastname: Stocco
+  collaboration: ALICE
+- type: Talk
+  invited: No
+  title: Les améliorations dans ALICE"
+  firstname: Gines
+  lastname: Martinez
+  collaboration: ALICE
+- type: Talk
+  invited: No
+  title: Quarkonia and heavy flavours with ALICE
+  firstname: Diego
+  lastname: Stocco
+  collaboration: ALICE
 ---
 conference: 'EDS09: 13th International Conference on Elastic and Diffractive Scattering'
 url: https://indico.cern.ch/conferenceDisplay.py?confId=41547
-date: June 29th - July 3rd 2009
+start: 2009-06-29
+end: 2009-07-03
 venue: Geneva, Switzerland
 contributions:
-- type: Invited Talk
+- type: Talk
+  invited: Yes
   title: QCD heavy ions
-  author: Gines MARTINEZ
+  firstname: Gines
+  lastname: Martinez
 ---
 conference: Workshop on the ALICE Muon Spectrometer Project and Related Physics  
 url: https://indico.cern.ch/conferenceDisplay.py?confId=57157
-date: September 8th - 10th 2010
+start: 2009-09-08
+end: 2009-09-10
 venue: Aussois, France
 contributions:
 - type: Talk
+  invited: No
   title: News about QA (ESD)
-  author: Philippe PILLOT
+  firstname: Philippe
+  lastname: Pillot
 - type: Talk
+  invited: No
   title: Reconstruction of cosmic tracks
-  author: Philippe PILLOT
+  firstname: Philippe
+  lastname: Pillot
 - type: Talk
+  invited: No
   title: News about reconstruction
-  author: Philippe PILLOT
+  firstname: Philippe
+  lastname: Pillot
 ---
 conference: 'CIPANP 2009: Tenth Conference on the Intersections of Particle and Nuclear Physics'
-url: 
-date: May 25th - 31st 2009
+url: http://groups.physics.umn.edu/cipanp2009/
+start: 2009-05-25
+end: 2009-05-31
 venue: San Diego, California, USA
 contributions:
-- type: Invited Talk
-  title: 'Open and hidden heavy flavors: perspectives at the LHC'
-  author: Diego STOCCO
 - type: Talk
-  title:  Non Photonic e-D**0 correlations in p+p and Au+Au collisions at $\sqrt{s_{NN}}$ = 200-GeV
-  author: Artemios GEROMITSOS for the STAR collaboration
+  invited: Yes
+  title: 'Open and hidden heavy flavors: perspectives at the LHC'
+  firstname: Diego
+  lastname: Stocco
+- type: Talk
+  invited: No
+  title: 'Non Photonic e-D**0 correlations in p+p and Au+Au collisions at $\sqrt{s_{NN}}$ = 200-GeV'
+  firstname: Artemios
+  lastname: Geromitsos
+  collaboration: STAR
 ---
 conference: ALICE EMCal Offline Meeting 
 url: 
-date: May 2009 
+start: 2009-05-10
+end: 2009-05-10
 venue: Frascati, Italie
 contributions:
 - type: Talk
-  title:  Jet reconstruction with the EMCal in the ALICE Software
-  author: M. ESTIENNE
+  invited: No
+  title: Jet reconstruction with the EMCal in the ALICE Software
+  firstname: Magali
+  lastname: Estienne
 ---
 conference: Workshop on Heavy Quarkonia Production in Heavy Ion Collisions in the European Centre for Theoretical Studies in Nuclear Physics
 url:
-date: May 25th - 29th 2009
+start: 2009-05-25
+end: 2009-05-29
 venue: Trento, Italy
 contributions:
-- type: Invited Talk
+- type: Talk
+  invited: Yes
   title: Quarkonium measurements in ALICE at LHC
-  author: Gines MARTINEZ for the ALICE collaboration
+  firstname: Gines
+  lastname: Martinez
+  collaboration: ALICE
 ---
 conference: Post QM workshop on Jet and photon physics and High-level Trigger 
 url:
-date: April 2009
+start: 2009-04-03
+end: 2009-04-03
 venue: Berkeley, USA
 contributions:
 - type: Talk
+  invited: No
   title: Some aspects of jet reconstruction in the ALICE experiment
-  author: Magali ESTIENNE
+  firstname: Magali
+  lastname: Estienne
 ---
 conference: International Meeting on Fundamental Physics
 url:
-date: February 9th - 13th 2009
+start: 2009-02-09
+end: 2009-02-13
 venue: Benasque, Spain
 contributions:
-- type: Invited Talk
+- type: Talk
+  invited: Yes
   title: Status of ALICE
-  author: Gines MARTINEZ for the ALICE collaboration
+  firstname: Gines
+  lastname: Martinez
+  collaboration: ALICE

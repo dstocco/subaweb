@@ -1,151 +1,199 @@
 ---
 conference: Rencontres QGP-France 2015
 url: http://llr.in2p3.fr/sites/qgp2015/index.php
-date: October 12th-15th 
+start: 2015-10-12
+end: 2015-10-15
 venue: Etretat, France
 type: French National Workshop
 participants: 50
 contributions: 
 - type: Talk
+  invited: No
   title: Experimental review of jets, hadrons and photons at high pT
-  author: Astrid MORREALE
+  firstname: Astrid
+  lastname: Morreale
 contributions:
 - type: Talk
+  invited: No
   title: Measurement of an excess in the yield of J/psi; at very low pT in Pb-Pb collisions at 2.76 TeV 
-  author: Gines MARTINEZ
+  firstname: Gines
+  lastname: Martinez
 - type: Members of the Organizing Committee
 ---
 conference: CORE-U Joint Seminar
 url: https://indico.cern.ch/event/448477/
-date: May 18th 2015
+start: 2015-05-18
+end: 2015-05-18
 venue: Physics Department, Hiroshima University, Japan
 contributions:
-- type: Invited Seminar
+- type: Seminar
+  invited: Yes
   title: The Quark Gluon Plasma and Heavy Ion Collisions 
-  author: Gines MARTINEZ
+  firstname: Gines
+  lastname: Martinez
 ---
 conference: Quark Matter 2015
 url: http://qm2015.riken.jp/
-date: September 27th - October 3rd 2015
+start: 2015-09-27
+end: 2015-10-03
 venue: Kobe, Japan
 type: International Conference
 participants: 700
 contributions:
 - type: Talk
+  invited: No
   title: Measurement of high pT photons and neutral mesons in pp and Pb-Pb collisions at mid-rapidity with ALICE
-  author: Astrid MORREALE
+  firstname: Astrid
+  lastname: Morreale
 - type: Talk
+  invited: No
   title: Measurement of an excess in the yield of J/psi; at very low pT in Pb-Pb collisions at 2.76 TeV 
-  author: Gines MARTINEZ
+  firstname: Gines
+  lastname: Martinez
 ---
 conference: Congrès Général de la Société de Physique Française
 url: http://www.sfp2013.fr/
-date: August 24th - 28th 2015
+start: 2015-08-24
+end: 2015-08-28
 venue: Strasbourg, France
 type: French National Congres
-participants: 600 participants
+participants: 600
 contributions:
 - type: Talk
+  invited: No
   title: Production de quarkonia dans les collisions d'ions lourds au LHC 
-  author: Gines MARTINEZ
+  firstname: Gines
+  lastname: Martinez
 ---
 conference: 'HEP-EPS 2015: European Physical Society Conference on High Energy Physics'
 url: http://eps-hep2015.eu/
-date: July 22nd - 29th 2015
+start: 2015-07-22
+end: 2015-07-29
 venue: Vienna, Austria
 type: International Workshop
 participants: 700
 contributions:
-- type: Invited Talk
+- type: Talk
+  invited: Yes
   title: Review of heavy-flavour production in heavy-ion collisions
-  author: Diego STOCCO
+  firstname: Diego
+  lastname: Stocco
 ---
 conference: Seminar
 url:
-date: May 18th 2015
+start: 2015-05-18
+end: 2015-05-18
 venue: Physics Department, Hiroshima University, Japan
 contributions:
-- type: Invited Seminar
+- type: Seminar
+  invited: Yes
   title: 'Quark Gluon Plasma with ALICE - looking forward: the MFT'
-  author: Guillaume BATIGNE
+  firstname: Guillaume
+  lastname: Batigne
 ---
 conference: Joint FKPPL-FJPPL meeting 
 url: http://kds.kek.jp/conferenceDisplay.py?ovw=True&amp;confId=17814
-date: May 19th - 23rd 2015
+start: 2015-05-19
+end: 2015-05-19
 venue: Okinawa, Japan
 type: International Workshop
 participants: 50
 contributions:
 - type: Talk
+  invited: No
   title: The ALICE FKPPL project
-  author: Guillaume BATIGNE
+  firstname: Guillaume
+  lastname: Batigne
 ---
 conference: 5th ALICE ITS upgrade, MFT and O2 Asian Workshop 
 url: https://indico.cern.ch/event/381564/
-date: June 7th - 9th 2015 
+start: 2015-06-07
+end: 2015-06-09
 venue: Wuhan, China
 type: International Workshop
 participants: 50
 contributions:
 - type: Talk
+  invited: No
   title: MFT Status and Plans
-  author: Gines MARTINEZ
+  firstname: Gines
+  lastname: Martinez
 - type: Talk
+  invited: No
   title: MFT Ladder Assembly 
-  author: Gines MARTINEZ
+  firstname: Gines
+  lastname: Martinez
 ---
 conference: 122nd LHCC Meeting 
 url: http://indico.cern.ch/event/389857/
-date: June 3rd 2015
+start: 2015-06-03
+end: 2015-06-03
 venue: CERN, Geneva, Switzerland
 type: International Meeting
 participants: 200
 contributions:
-- type: Invited Talk
+- type: Talk
+  invited: Yes
   title: ALICE Status Report 
-  author: Marie Germain
+  firstname: Marie
+  lastname: Germain
 ---
 conference: 8th France China Particle Physics Laboratory (FCPPL) Workshop
 url: http://indico.cern.ch/event/348717/
-date: April 8th - 10th 2015 
+start: 2015-04-08
+end: 2015-04-10
 venue: Hefei, China
 contributions:
-- type: Invited Talk
+- type: Talk
+  invited: Yes
   title: Measurement of W-boson production in p-Pb collisions with ALICE at the LHC
-  author: Jianhui Zhu
+  firstname: Jianhui
+  lastname: Zhu
 ---
 conference: France-Japan workshop on physics analysis in the ALICE experiment
 url: https://indico.cern.ch/event/368175/
-date: March 14th - 17th 2015
+start: 2015-03-14
+end: 2015-03-17
 venue: Sainte Maxime, France
 contributions:
 - type: Talk
+  invited: No
   title: Measurement of isolated photons
-  author: Lucile Ronflette
+  firstname: Lucile
+  lastname: Ronflette
 ---
 conference: LHCC Detector Upgrade Review 
 url: http://indico.cern.ch/event/376374/
-date: March 3rd 2015
+start: 2015-03-03
+end: 2015-03-03
 venue: CERN, Geneva, Switzerland
 contributions:
-- type: Invited Talk
+- type: Talk
+  invited: Yes
   title: Technical Design Report for the ALICE Muon Forward Tracker 
-  author: Gines Martinez
+  firstname: Gines
+  lastname: Martinez
 ---
 conference: Seminar in SAHA Institute of Nuclear Physics
 url:
-date: February 10th 2015
+start: 2015-02-10
+end: 2015-02-10
 venue: Kolkata, India
 contributions:
-- type: Invited Seminar
+- type: Seminar
+  invited: Yes
   title: The hadronic matter and heavy ion collisions at relativistic energies and the MFT project of the ALICE experiment at the LHC
-  author: Gines MARTINEZ
+  firstname: Gines
+  lastname: Martinez
 ---
 conference: Seminar in Physics Departement of University of Granada
 url: 
-date: January 13th 2015
+start: 2015-01-13
+end: 2015-01-13
 venue: Granada, Spain
 contributions:
-- type: Invited Seminar
+- type: Seminar
+  invited: Yes
   title: The hadronic matter and heavy ion collisions at relativistic energies and the MFT project of the ALICE experiment at the LHC
-  author: Gines MARTINEZ
+  firstname: Gines
+  lastname: Martinez

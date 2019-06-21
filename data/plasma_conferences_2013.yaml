@@ -1,170 +1,235 @@
 ---
 conference: International workshop SaporeGravis
 url: https://indico.cern.ch/event/247609/
-date: December 2nd - 5th
+start: 2013-12-02
+end: 2013-12-05
 venue: Nantes, France
 type: International Workshop organized by Subatech
 contributions:
 - type: Talk
+  invited: No
   title: Open heavy flavour production and flow at RHIC 
-  author: Sonia Kabana
+  firstname: Sonia
+  lastname: Kabana
 ---
 conference: Seminar in iThemba Labs
 url: http://www.tlabs.ac.za/
-date: November 6th 2013
+start: 2013-11-06
+end: 2013-11-06
 venue: Cape-Town, South Africa
 contributions:
 - type: Talk
+  invited: No
   title: The hadronic matter and heavy ion collisions at relativistic energies
-  author: Gines Martinez
+  firstname: Gines
+  lastname: Martinez
 ---
 conference: Hard Probes 2013
 url: http://www.phy.uct.ac.za/hp2013/
-date: November 4th 2013
+start: 2013-11-04
+end: 2013-11-08
 venue: Stellenbosch, South Africa
 contributions:
 - type: Talk
+  invited: No
   title: Nuclear Modification Factor and Elliptic Flow of Muons from Heavy-Flavour Hadron Decays in Pb-Pb Collisions at sqrt(s_NN)=2.76 TeV with ALICE
-  author: Gines MARTINEZ instead of Shuang Li (CCNU-Wuhan and LPC-Clermont) that was not able to attend the conference due to a visa problem
+  firstname: Gines
+  lastname: Martinez instead of Shuang Li (CCNU-Wuhan and LPC-Clermont) that was not able to attend the conference due to a visa problem
 ---
 conference: ALICE Physics Week
 url: http://conf.ccnu.edu.cn/~apw2013wh/
-date: October 2014
+start: 2013-10-10
+end: 2013-10-14
 venue: Wuhan, China
 contributions:
 - type: Talk
+  invited: No
   title: DCAL installation and plans
-  author: Mengliang Wang
+  firstname: Mengliang
+  lastname: Wang
 - type: Talk
+  invited: No
   title:  Jpsi-&gt;mumu low pT excess
-  author: Gines Martinez
+  firstname: Gines
+  lastname: Martinez
 ---
 conference: Rencontres QGP-France 2013
 url: http://llr.in2p3.fr/sites/qgp2013/
-date: September 9th - 12th 2013
+start: 2013-09-09
+end: 2013-09-12
 venue: Etretat, France
 contributions:
 - type: Talk
+  invited: No
   title:  Recent results from RHIC
-  author: Sonia Kabana
+  firstname: Sonia
+  lastname: Kabana
 - type: Talk
+  invited: No
   title: Muon Forward Tracker
-  author: Guillaume Batigne
+  firstname: Guillaume
+  lastname: Batigne
 - type: Talk
+  invited: No
   title:  Performances of the Muon tracking system during pA LHC runs
-  author: Javier Martin Blanco
+  firstname: Javier
+  lastname: Martin Blanco
 - type: Talk
+  invited: No
   title: ALICE DCAL geometry implementation and preparation for jet physics
-  author: Menglian Wang
+  firstname: Menglian
+  lastname: Wang
 ---
 conference: International Conference on the Initial Stages in High-Energy Nuclear Collisions
 url: http://igfae.usc.es/is2013/
-date: September 8th - 14th 2013
+start: 2013-09-08
+end: 2013-09-14
 venue: Illa da Toxa, Galicia-Spain
 contributions:
 - type: Talk
+  invited: No
   title: J/psi production in p-Pb with ALICE at the LHC
-  author: Laurent Aphecetche
+  firstname: Laurent
+  lastname: Aphecetche
 ---
 conference: 'SQM 2013: Strangeness in Quark Matter'
 url: http://www.ep.ph.bham.ac.uk/SQM2013/Home.html
-date: July 21st - 27th 2013
+start: 2013-07-21
+end: 2013-07-27
 venue: Birmingham, UK
 contributions:
-- type: Invited Talk
-  title:  Open heavy-flavour results from ALICE 
-  author: Diego STOCCO
+- type: Talk
+  invited: Yes
+  title: Open heavy-flavour results from ALICE 
+  firstname: Diego
+  lastname: Stocco
 ---
 conference: Congrès Général de la Société de Physique Française
 url: http://www.sfp2013.fr/
-date: July 1st - 5th 2013
-venue: Marseille, France, 
-contributions:
-- type: Talk
-  title: Le plasma de quarks et de gluons et les collisions d&rsquo;ions lourds au LHC 
-  author: Gines MARTINEZ
----
-conference: 8th Alice Physics Week
-url: http://indico.cern.ch/conferenceDisplay.py?confId=223720
-
-date: May 19th - 24th 2013, 
-venue: Padova, Italy
-contributions:
-- type: Talk
-  title: Isolated photons with EMCAL,
-  author: Marie Germain
-- type: Talk
-  title:  Muon Tracking Efficiency studies in pPb and Pbp
-  author: Javier Martin Blanco
-- type: Talk
-  title: Low pT J/&Psi; in Pb-Pb collisions
-  author: Laure Massacrier
----
-conference: International Muon Workshop 2013
-url: http://alicemuonmeeting2013.to.infn.it/index.html
-date: May 6th - 10th 2013
-venue: Barolo, Italy 
-contributions:
-- type: Talk
-  title:  DQM to-do list
-  author: Diego STOCCO
-- type: Talk
-  title:  HFM introduction 
-  author: Diego STOCCO
----
-conference: 'DIS 2013: XXI International Workshop on Deep-Inelastic Scattering and Related Subjects'
-url: http://dis2013.in2p3.fr/
-date: April 22nd - 26th 2013
+start: 2013-07-01
+end: 2013-07-05
 venue: Marseille, France
 contributions:
 - type: Talk
+  invited: No
+  title: Le plasma de quarks et de gluons et les collisions d&rsquo;ions lourds au LHC 
+  firstname: Gines
+  lastname: Martinez
+---
+conference: 8th Alice Physics Week
+url: http://indico.cern.ch/conferenceDisplay.py?confId=223720
+start: 2013-05-19
+end: 2013-05-24
+venue: Padova, Italy
+contributions:
+- type: Talk
+  invited: No
+  title: Isolated photons with EMCAL
+  firstname: Marie
+  lastname: Germain
+- type: Talk
+  invited: No
+  title:  Muon Tracking Efficiency studies in pPb and Pbp
+  firstname: Javier
+  lastname: Martin Blanco
+- type: Talk
+  invited: No
+  title: Low pT J/&Psi; in Pb-Pb collisions
+  firstname: Laure
+  lastname: Massacrier
+---
+conference: International Muon Workshop 2013
+url: http://alicemuonmeeting2013.to.infn.it/index.html
+start: 2013-05-06
+end: 2013-05-10
+venue: Barolo, Italy 
+contributions:
+- type: Talk
+  invited: No
+  title: DQM to-do list
+  firstname: Diego
+  lastname: Stocco
+- type: Talk
+  invited: No
+  title: HFM introduction 
+  firstname: Diego
+  lastname: Stocco
+---
+conference: 'DIS 2013: XXI International Workshop on Deep-Inelastic Scattering and Related Subjects'
+url: http://dis2013.in2p3.fr/
+start: 2013-04-22
+end: 2013-04-26
+venue: Marseille, France
+contributions:
+- type: Talk
+  invited: No
   title: Open heavy-flavour production with the ALICE experiment at the LHC
-  author: Diego STOCCO
+  firstname: Diego
+  lastname: Stocco
+  collaboration: ALICE
 ---
 conference: LHC France 2013
 url: http://events.lal.in2p3.fr/LHC-France2013/
-date: April 2nd - 6th 2013
+start: 2013-04-02
+end: 2013-04-06
 venue: Annecy, France
 contributions:
 - type: Talk
-  title: Direct photon measurements with ALIC
-  author: Alexis MAS
+  invited: No
+  title: Direct photon measurements with ALICE
+  firstname: Alexis
+  lastname: Mas
+  collaboration: ALICE
 - type: Talk
+  invited: No
   title: J/psi elliptic flow measurement in Pb-Pb collisions
-  author: Laure Massacrier
+  firstname: Laure
+  lastname: Massacrier
+  collaboration: ALICE
 ---
 conference: Seminar in the Facultade de Fisica of the Universidade de Santiago de Compostela
 url: http://www.usc.es/gl/centros/fisica
-date: March 5th 2013
+start: 2013-03-05
+end: 2013-03-05
 venue: Santiago de Compostela, Spain
 contributions:
 - type: Seminar
   title: The hadronic matter and heavy ion collisions at relativistic energies
-  author: Gines MARTINEZ
+  firstname: Gines
+  lastname: Martinez
 ---
 conference: Physics at a fixed target experiment (AFTER) using the LHC beams
 url: http://jjc2012.free.fr/
-date: February 3rd - 13th 2013
+start: 2013-02-03
+end: 2013-02-13
 venue: Trento, Italy
 contributions:
 - type: Talk
+  invited: No
   title: ALICE upgrades
-  author: Laure MASSACRIER
+  firstname: Laure
+  lastname: Massacrier
 ---
 conference: 29th Workshop on Nuclear Dynamics
 url: http://nsmn1.uh.edu/rbellwied/wwnd2013/Welcome.html
-date: February 3rd - 10th 2013
+start: 2013-02-03
+end: 2013-02-10
 venue: Squaw Valley, USA
 contributions:
 - type: Talk
+  invited: No
   title: Recent results on jet physics from ALICE at LHC
-  author: Alexandre SHABETAI
+  firstname: Alexandre
+  lastname: Shabetai
 ---
 conference: Seminar in Subatech
 url: www-subatech.in2p3.fr/
-date: January 17th 2013
+start: 2013-01-17
+end: 2013-01-17
 venue: Nantes, France
 contributions:
 - type: Talk
+  invited: No
   title: Summary of the Open Symposium on European Strategy for Particle Physics
-  author: Gines MARTINEZ
+  firstname: Gines
+  lastname: Martinez
