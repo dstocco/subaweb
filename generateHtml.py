@@ -65,12 +65,14 @@ def parseFile(filename):
     # Parse the file from HAL
     tree = ET.parse(filename)
     root = tree.getroot()
-    eventList = []
+    eventList = list()
+    # Some info in HAL is inserted manually.
+    # So, for some publications the French authors of the proceedings
+    # are added as authors, instead of just the speaker
+    # I need to remove this by hand
+    badAuthorsList = ['Bugaev', 'Bryslawskyj']
     for bib in root.iter(getSearchName('biblFull')):
-        event = {}
-        eventList.append(event)
-        contrib = {}
-        event['contributions'] = [contrib]
+        event = dict()
 
         struct = bib.find(getSearchChild('biblStruct'))
         meet = struct.find(getSearchChild('meeting'))
@@ -85,6 +87,8 @@ def parseFile(filename):
             'settlement')).text + ', ' + meet.find(getSearchChild('country')).text
         event['audience'] = bib.find('.//*[@type="audience"]').text
 
+        contrib = dict()
+
         # Get contribution info
         contrib['type'] = 'Talk'  # TODO: check for posters
         contrib['title'] = struct.find(getSearchChild('title')).text
@@ -96,17 +100,43 @@ def parseFile(filename):
         invited = bib.find('.//*[@type="invited"]').text
         contrib['invited'] = invited == 'Yes'
 
+        reject = False
+        for auth in badAuthorsList:
+            if auth in contrib['lastname']:
+                reject = True
+                print('Info: rejecting contribution by: ' + auth)
+                break
+
+        if reject:
+            continue
+
         # This info might be missing
         for el in bib.findall('.//*[@type="doi"]'):
             contrib['proceedings'] = 'https://dx.doi.org/' + el.text
+
+        event['contributions'] = [contrib]
+
+        eventList.append(event)
     return eventList
 
 
-def getHalFile(year, group='SUBATECH-PLASMA'):
+def makeQueryUrl(year, group, authors=''):
+    url = 'https://api.archives-ouvertes.fr/search/index/?omitHeader=true&wt=xml-tei&q='
+    url += 'collCode_s%3A%28' + group + "%29"
+    if authors != '':
+        formatAuthors = authors.replace(' ', '')
+        formatAuthors = formatAuthors.replace(',', '+OR+')
+        url += '+AND++auth_t%3A%28' + formatAuthors + '%29'
+    url += '+AND++conferenceStartDateY_i%3A%28' + str(year) + '%29'
+    url += '&fq=NOT+status_i%3A111&defType=edismax&rows=1000'
+    return url
+
+
+def getHalFile(year, group='SUBATECH-PLASMA', authors=''):
     # Gets the conferences from HAL
-    url = 'https://api.archives-ouvertes.fr/search/index/?omitHeader=true&wt=xml-tei&q=collCode_s%3A%28' + group + \
-        '%29+AND++conferenceStartDateY_i%3A%28' + \
-        str(year) + '%29&fq=NOT+status_i%3A111&defType=edismax&rows=1000'
+    # url = 'https://api.archives-ouvertes.fr/search/index/?omitHeader=true&wt=xml-tei&q=collCode_s%3A%28' + group + \
+    #     '%29+AND++conferenceStartDateY_i%3A%28' + \
+    #     str(year) + '%29&fq=NOT+status_i%3A111&defType=edismax&rows=1000'
 
     outFilename = 'data_from_hal/hal_' + group + '_' + str(year) + '.xml'
 
@@ -116,6 +146,7 @@ def getHalFile(year, group='SUBATECH-PLASMA'):
         if (answer != 'y'):
             return outFilename
 
+    url = makeQueryUrl(year, group, authors)
     print('Querying url ' + url)
     req = requests.get(url)
     with open(outFilename, 'w') as outFile:
@@ -218,22 +249,33 @@ def checkEvents(mergedEvents):
 
 def main():
     parser = argparse.ArgumentParser(description='Utility for conferences')
-    parser.add_argument("--min", help="Minimum year",
+    parser.add_argument('--min', help='Minimum year',
                         type=int, dest='min', default=2008)
-    parser.add_argument("--group", help="Group",
-                        dest="group", default="SUBATECH-PLASMA")
+    parser.add_argument('--group', help='Group',
+                        dest='group', default='SUBATECH-PLASMA')
+    parser.add_argument('--authors', help='Comma separated list of authors. This option bypasses the one on group',
+                        dest='authors', default='aphecetche,batigne,bugnon,erazmus,germain,guilbaud,guittiere,kabana,martinez,masson,pillot,shabetai,stocco,tarhini')
 
     args = parser.parse_args()
 
+    group = args.group
+    authors = args.authors
+
+    # The search for a group should provide all of the necessary info
+    # However, the information on the group is manually tagged on HAL.
+    # While this should be done regularly, experience prove that it was never the case
+    if authors != '':
+        group = 'SUBATECH'
+
     now = datetime.datetime.now()
 
-    outFile = open("plasma_conferences.html", "w")
+    outFile = open('plasma_conferences.html', 'w')
 
     for year in reversed(range(args.min, now.year+1)):
         # Get events from hal
         eventList = []
         if (year >= 2015):
-            halFilename = getHalFile(year, args.group)
+            halFilename = getHalFile(year, group, authors)
             eventList += parseFile(halFilename)
             # Add some information to better link with yaml
             completeInfo(
