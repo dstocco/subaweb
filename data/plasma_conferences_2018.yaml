@@ -2,16 +2,11 @@
 conference: QNP18
 url: https://www-conf.kek.jp/qnp2018/index.html
 start: 2018-11-13
-end: 2018-11-18
+end: 2018-11-17
 venue: Tsukuba, Japan
 type: International Conference
 participants: 193
 contributions:
-- type: Talk
-  invited: No
-  title: Electroweak bosons measurements in p-Pb and Pb-Pb collisions at sqrt(s_(NN) = 5.02 TeV with ALICE
-  firstname: Diego
-  lastname: Stocco
 - type: IAC member
   firstname: Gines
   lastname: Martinez
@@ -136,17 +131,12 @@ contributions:
 ---
 conference: Quark matter
 url: https://qm2018.infn.it/
-start: 2018-05-13
+start: 2018-05-14
 end: 2018-05-19
 venue: Venice, Italy
 type: International Conference
 participants: 854
 contributions:
-- type: Talk
-  invited: No
-  title: Electroweak bosons measurement in p-Pb and Pb-Pb collisions
-  firstname: Mohamad
-  lastname: Tarhini
 - type: Poster
   title: Measurement of isolated photons in p–Pb collisions at 5.02 TeV with the EMCal detector in ALICE
   firstname: Erwann
