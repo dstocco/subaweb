@@ -87,10 +87,12 @@ def parseFile(filename):
             'settlement')).text + ', ' + meet.find(getSearchChild('country')).text
         event['audience'] = bib.find('.//*[@type="audience"]').text
 
-        contrib = dict()
-
         # Get contribution info
-        contrib['type'] = 'Talk'  # TODO: check for posters
+        contrib = dict()
+        halTypology = bib.find('.//*[@scheme="halTypology"]').text
+        contrib['type'] = 'Talk'
+        if 'Poster' in halTypology:
+            contrib['type'] = "Poster"
         contrib['title'] = struct.find(getSearchChild('title')).text
         author = struct.findall('.//*[@role="aut"]')
         contrib['firstname'] = author[0].find(
