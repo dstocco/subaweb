@@ -7,12 +7,9 @@ venue: Protea Hotel Kruger Gate, Mpumulanga, South Africa
 type: International Workshop
 participants: 110
 contributions:
-- type: Talk
-  invited: Yes
-  title: Open Heavy Flavour at the LHC
-  firstname: Diego
-  lastname: Stocco
 - type: Members of the International Advisory Committee
+  firstname: Gines
+  lastname: Martinez
 ---
 conference: Reunion annuelle du "Groupement de Recherche" QCD 2016 
 url: https://indico.in2p3.fr/event/13444/
