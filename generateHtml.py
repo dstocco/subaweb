@@ -104,9 +104,9 @@ def parseFile(filename):
 
 def getHalFile(year, group='SUBATECH-PLASMA'):
     # Gets the conferences from HAL
-    url = 'https://api.archives-ouvertes.fr/search/imt-atlantique/?omitHeader=true&wt=xml-tei&q=collName_t%3A%28' + group + \
+    url = 'https://api.archives-ouvertes.fr/search/index/?omitHeader=true&wt=xml-tei&q=collCode_s%3A%28' + group + \
         '%29+AND++conferenceStartDateY_i%3A%28' + \
-        str(year) + '%29&fq=collCode_s%3AIMT-ATLANTIQUE&fq=NOT+status_i%3A111&defType=edismax&rows=1000'
+        str(year) + '%29&fq=NOT+status_i%3A111&defType=edismax&rows=1000'
 
     outFilename = 'data_from_hal/hal_' + group + '_' + str(year) + '.xml'
 
