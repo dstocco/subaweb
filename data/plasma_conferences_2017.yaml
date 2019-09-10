@@ -198,18 +198,6 @@ venue: Chicago, USA
 type: International Workshop
 participants: 700
 contributions:
-- type: Talk
-  invited: No
-  title: Electroweak boson production in p-Pb and Pb-Pb collisions at 5.02 TeV with ALICE
-  firstname: Diego
-  lastname: Stocco
-  proceedings: https://www.sciencedirect.com/science/article/pii/S0375947417301689?via%3Dihub
-- type: Talk
-  invited: No
-  title: Direct photon measurements in pp and Pb-Pb collisions with ALICE
-  firstname: Marie
-  lastname: Germain
-  proceedings: https://inspirehep.net/record/1628270/files/Fulltext.pdf
 - type: Poster
   title: Measurements of jet fragmentation functions and of their moments in pp collisions at 2.76 TeV with the ALICE detector
   firstname: Alexandre
