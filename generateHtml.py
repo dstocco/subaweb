@@ -60,17 +60,42 @@ def getSearchChild(name, tag=''):
         outSearch += '/' + tag
     return outSearch
 
+def loadIgnored(filename):
+    badAuthorsList = list()
+    if os.path.exists(filename):
+        with open(filename, 'r') as inFile:
+            for line in inFile:
+                badAuthorsList.append(line.strip())
 
-def parseFile(filename):
-    # Parse the file from HAL
-    tree = ET.parse(filename)
-    root = tree.getroot()
-    eventList = list()
+    return badAuthorsList
+
+
+def checkAuthorList(authorsStruct, badAuthorsList):
     # Some info in HAL is inserted manually.
     # So, for some publications the French authors of the proceedings
     # are added as authors, instead of just the speaker
     # I need to remove this by hand
-    badAuthorsList = ['Bugaev', 'Bryslawskyj']
+
+    # If there is only one author, usually everything is ok
+    # We only check author lists
+    if (len(authorsStruct) == 1):
+        return True
+
+    for authStruct in authorsStruct:
+        auth = authStruct.find(getSearchChild('surname')).text
+        for badAuth in badAuthorsList:
+            if badAuth in auth:
+                print('Info: rejecting contribution by: ' + auth)
+                return False
+    return True
+
+
+def parseFile(filename, badAuthorsList):
+    # Parse the file from HAL
+    tree = ET.parse(filename)
+    root = tree.getroot()
+    eventList = list()
+
     for bib in root.iter(getSearchName('biblFull')):
         event = dict()
 
@@ -81,36 +106,34 @@ def parseFile(filename):
         event['conference'] = meet.find(getSearchChild('title')).text
         event['start'] = datetime.datetime.strptime(
             meet.find('.//*[@type="start"]').text, '%Y-%m-%d').date()
-        event['end'] = datetime.datetime.strptime(
-            meet.find('.//*[@type="end"]').text, '%Y-%m-%d').date()
+        try:
+            event['end'] = datetime.datetime.strptime(
+                meet.find('.//*[@type="end"]').text, '%Y-%m-%d').date()
+        except:
+            pass
         event['venue'] = meet.find(getSearchChild(
             'settlement')).text + ', ' + meet.find(getSearchChild('country')).text
         event['audience'] = bib.find('.//*[@type="audience"]').text
 
         # Get contribution info
+        # First check if we have the good authors in a list
+        authorsStruct = struct.findall('.//*[@role="aut"]')
+        if not checkAuthorList(authorsStruct, badAuthorsList):
+            continue
+
         contrib = dict()
         halTypology = bib.find('.//*[@scheme="halTypology"]').text
         contrib['type'] = 'Talk'
         if 'Poster' in halTypology:
             contrib['type'] = "Poster"
         contrib['title'] = struct.find(getSearchChild('title')).text
-        author = struct.findall('.//*[@role="aut"]')
-        contrib['firstname'] = author[0].find(
+        contrib['firstname'] = authorsStruct[0].find(
             getSearchChild('forename')).text
-        contrib['lastname'] = author[0].find(
+        contrib['lastname'] = authorsStruct[0].find(
             getSearchChild('surname')).text
+        contrib['nauthors'] = len(authorsStruct)
         invited = bib.find('.//*[@type="invited"]').text
         contrib['invited'] = invited == 'Yes'
-
-        reject = False
-        for auth in badAuthorsList:
-            if auth in contrib['lastname']:
-                reject = True
-                print('Info: rejecting contribution by: ' + auth)
-                break
-
-        if reject:
-            continue
 
         # This info might be missing
         for el in bib.findall('.//*[@type="doi"]'):
@@ -175,6 +198,8 @@ def printContribution(conf, outFile):
         if contrib.get('firstname'):
             contribDetails += ' ' + \
                 contrib['firstname'] + ' ' + contrib['lastname'].upper()
+        if contrib.get('nauthors') and contrib['nauthors'] > 1:
+            contribDetails += ' et al.'
         if (len(contribDetails) > 0):
             outFile.write(': ' + contribDetails)
         if contrib.get('proceedings'):
@@ -271,6 +296,8 @@ def main():
 
     now = datetime.datetime.now()
 
+    badAuthorsList = loadIgnored('rejectAuthors.txt')
+
     outFile = open('plasma_conferences.html', 'w')
 
     for year in reversed(range(args.min, now.year+1)):
@@ -278,7 +305,7 @@ def main():
         eventList = []
         if (year >= 2015):
             halFilename = getHalFile(year, group, authors)
-            eventList += parseFile(halFilename)
+            eventList += parseFile(halFilename, badAuthorsList)
             # Add some information to better link with yaml
             completeInfo(
                 eventList, 'additionalInfo/additionalInfo_' + str(year) + '.yaml')
