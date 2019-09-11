@@ -5,6 +5,7 @@ import sys
 import requests
 import argparse
 import datetime
+import re
 import yaml
 import xml.etree.ElementTree as ET
 
@@ -89,6 +90,14 @@ def checkAuthorList(authorsStruct, badAuthorsList):
                 return False
     return True
 
+def getMeetingType(title):
+    if re.search('workshop', title, re.IGNORECASE):
+        return 'Workshop'
+    if re.search('symposium', title, re.IGNORECASE):
+        return 'Symposium'
+    if re.search('s[eé]minai?re?', title, re.IGNORECASE):
+        return 'Seminar'
+    return 'Conference'
 
 def parseFile(filename, badAuthorsList):
     # Parse the file from HAL
@@ -113,7 +122,8 @@ def parseFile(filename, badAuthorsList):
             pass
         event['venue'] = meet.find(getSearchChild(
             'settlement')).text + ', ' + meet.find(getSearchChild('country')).text
-        event['audience'] = bib.find('.//*[@type="audience"]').text
+        audience = bib.find('.//*[@type="audience"]').text
+        event['type'] = audience + ' ' + getMeetingType(event['conference'])
 
         # Get contribution info
         # First check if we have the good authors in a list
