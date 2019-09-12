@@ -196,7 +196,7 @@ def printContribution(conf, outFile):
         return 1
     contributions = conf['contributions']
 
-    outFile.write('\n    <ul style="list-style-type: disc";>\n')
+    outFile.write('\n    <ul style="list-style-type: disc;">\n')
     for contrib in contributions:
         outFile.write('      <li>')
         if contrib.get('invited') and contrib['invited'] is True:
