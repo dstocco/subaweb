@@ -301,8 +301,8 @@ def main():
                         type=int, dest='min', default=2008)
     parser.add_argument('--group', help='Group',
                         dest='group', default='SUBATECH-PLASMA')
-    parser.add_argument('--authors', help='Comma separated list of authors. This option bypasses the one on group',
-                        dest='authors', default='aphecetche,batigne,bugnon,erazmus,germain,guilbaud,guittiere,kabana,martinez,masson,pillot,shabetai,stocco,tarhini')
+    parser.add_argument('--authors', help='Comma separated list of authors. This option bypasses the one on group', dest='authors', default = '')
+    # default='aphecetche,batigne,bugnon,erazmus,germain,guilbaud,guittiere,kabana,martinez,masson,pillot,shabetai,stocco,tarhini')
 
     args = parser.parse_args()
 
