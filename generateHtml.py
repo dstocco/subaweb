@@ -61,6 +61,7 @@ def getSearchChild(name, tag=''):
         outSearch += '/' + tag
     return outSearch
 
+
 def loadIgnored(filename):
     badAuthorsList = list()
     if os.path.exists(filename):
@@ -90,6 +91,7 @@ def checkAuthorList(authorsStruct, badAuthorsList):
                 return False
     return True
 
+
 def getMeetingType(title):
     if re.search('workshop', title, re.IGNORECASE):
         return 'Workshop'
@@ -98,6 +100,7 @@ def getMeetingType(title):
     if re.search('s[eé]minai?re?', title, re.IGNORECASE):
         return 'Seminar'
     return 'Conference'
+
 
 def parseFile(filename, badAuthorsList):
     # Parse the file from HAL
@@ -119,9 +122,15 @@ def parseFile(filename, badAuthorsList):
             event['end'] = datetime.datetime.strptime(
                 meet.find('.//*[@type="end"]').text, '%Y-%m-%d').date()
         except:
+            print('No end time in ' + event['conference'])
+            event['end'] = event['start']
             pass
         event['venue'] = meet.find(getSearchChild(
             'settlement')).text + ', ' + meet.find(getSearchChild('country')).text
+        try:
+            event['url'] = struct.find('.//*[@type="publisher"]').text
+        except:
+            pass
         audience = bib.find('.//*[@type="audience"]').text
         event['type'] = audience + ' ' + getMeetingType(event['conference'])
 
@@ -264,6 +273,8 @@ def checkEvents(mergedEvents):
     for event in mergedEvents:
         if not event.get('url'):
             print('Missing url for ' + event['conference'])
+        # if not event.get('participants'):
+        #     print('Missing participants for ' + event['conference'])
         # if not event.get('contributions'):
         #     # This happens for organized conferences
         #     continue
