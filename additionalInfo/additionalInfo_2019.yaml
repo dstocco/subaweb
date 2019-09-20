@@ -1,11 +1,9 @@
 ---
 conference: QCD@LHC. The 10th edition of the joint theoretical-experimental conference on applications of QCD to collider physics
-url: https://indico.fnal.gov/event/19380/
 participants: 103
 alias: QCD@LHC2019
 ---
 conference: 25ème Congrès Général de la Société Française de Physique
-url: https://indico.in2p3.fr/event/16792/
 participants: 400
 alias: SFP2019
 ---
@@ -21,3 +19,9 @@ alias: WONP
 ---
 conference: 137th LHCC Meeting
 url: https://indico.cern.ch/event/794774/
+---
+conference: XVII Workshop On Nuclear Physics WONP
+url: http://wonp.instec.cu/pages/index.php
+---
+conference: Programme de séminaires de la Société d’Astronomie de Nantes 2018/2019
+url: https://www.san.asso.fr/conferen/Plaquette_Conferences_2018-2019.pdf
