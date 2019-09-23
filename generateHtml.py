@@ -97,7 +97,7 @@ def getMeetingType(title):
         return 'Workshop'
     if re.search('symposium', title, re.IGNORECASE):
         return 'Symposium'
-    if re.search('s[eé]minai?re?', title, re.IGNORECASE):
+    if re.search('s[eé]minai?re?', title, re.IGNORECASE) or re.search('colloque', title, re.IGNORECASE):
         return 'Seminar'
     return 'Conference'
 
