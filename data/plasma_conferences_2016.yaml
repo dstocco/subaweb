@@ -50,21 +50,6 @@ contributions:
   lastname: Martinez
 - type: Members of the Organising Committee
 ---
-conference: Hot Quarks 2016
-url: http://hq2016.bnl.gov/
-start: 2016-09-12
-end: 2016-09-17
-venue: South Padre Island, TX, USA
-type: International Workshop
-participants: 80
-contributions:
-- type: Talk
-  invited: No
-  title: Inclusiive J/psi production in PbPb with the ALICE Muon spectrometer
-  firstname: Benjamin
-  lastname: Audurier
-  proceedings: http://iopscience.iop.org/article/10.1088/1742-6596/832/1/012027/pdf
----
 conference: 6th ALICE ITS upgrade, MFT and O2 Asian Workshop 
 url: https://indico.cern.ch/event/484521/
 start: 2016-07-26
@@ -93,21 +78,6 @@ contributions:
   title: Neutral mesons and direct photon measurements with the ALICE experiment
   firstname: Lucile
   lastname: Ronflette
----
-conference: SQM 2016
-url: https://indico.cern.ch/event/403913/contributions/1849252/
-start: 2016-06-27
-end: 2016-07-01
-venue: UC Berkeley, USA
-type: International Conference
-participants: 125
-contributions:
-- type: Talk
-  invited: No
-  title: Production of pi0, kaons and eta mesons in Pb-Pb and pp collisions at 2.76 TeV measured with the ALICE detector at the LHC 
-  firstname: Astrid
-  lastname: Morreale
-  proceedings: http://arxiv.org/abs/1609.06106
 ---
 conference: Journées de la Société Française de Physique SFP et du Bureau de Théoriciens en Physique Nucléaire (BTPN)
 url: https://www.sfpnet.fr/les-grandes-questions-en-physique-nucleaire-fondamentale
