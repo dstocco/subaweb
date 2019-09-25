@@ -42,11 +42,6 @@ participants: 700
 contributions:
 - type: Talk
   invited: No
-  title: Measurement of high pT photons and neutral mesons in pp and Pb-Pb collisions at mid-rapidity with ALICE
-  firstname: Astrid
-  lastname: Morreale
-- type: Talk
-  invited: No
   title: Measurement of an excess in the yield of J/psi; at very low pT in Pb-Pb collisions at 2.76 TeV 
   firstname: Gines
   lastname: Martinez
@@ -64,20 +59,6 @@ contributions:
   title: Production de quarkonia dans les collisions d'ions lourds au LHC 
   firstname: Gines
   lastname: Martinez
----
-conference: 'HEP-EPS 2015: European Physical Society Conference on High Energy Physics'
-url: http://eps-hep2015.eu/
-start: 2015-07-22
-end: 2015-07-29
-venue: Vienna, Austria
-type: International Workshop
-participants: 700
-contributions:
-- type: Talk
-  invited: Yes
-  title: Review of heavy-flavour production in heavy-ion collisions
-  firstname: Diego
-  lastname: Stocco
 ---
 conference: Seminar
 url:
