@@ -27,8 +27,8 @@ contributions:
 ---
 conference: Rencontres QGP France 2016 
 url: http://llr.in2p3.fr/sites/qgp2016/
-start: 2016-09-15
-end: 2016-09-18
+start: 2016-10-10
+end: 2016-10-13
 venue: Etretat, France
 type: National Workshop
 participants: 50
@@ -43,11 +43,6 @@ contributions:
   title: Overview of charmonium production in pp collisions 
   firstname: Astrid
   lastname: Morreale
-- type: Talk
-  invited: No
-  title: On the relative suppression of Psi(2S) with respect to J/psi in p-Pb collisions at the LHC 
-  firstname: Gines
-  lastname: Martinez
 - type: Members of the Organising Committee
 ---
 conference: 6th ALICE ITS upgrade, MFT and O2 Asian Workshop 
@@ -78,20 +73,6 @@ contributions:
   title: Neutral mesons and direct photon measurements with the ALICE experiment
   firstname: Lucile
   lastname: Ronflette
----
-conference: Journées de la Société Française de Physique SFP et du Bureau de Théoriciens en Physique Nucléaire (BTPN)
-url: https://www.sfpnet.fr/les-grandes-questions-en-physique-nucleaire-fondamentale
-start: 2016-06-21
-end: 2016-06-22
-venue: Paris, France
-type: National Conference
-participants: 100
-contributions:
-- type: Talk
-  invited: Yes
-  title: La matière formée dans les collisions hadroniques (gaz hadronique, QGP) 
-  firstname: Gines
-  lastname: Martinez
 ---
 conference: Alice Calo Meeting
 url: https://indico.cern.ch/event/506125/
@@ -126,17 +107,3 @@ contributions:
   firstname: Diego
   lastname: Stocco
 - type: Local Organising Committee
----
-conference: 71st Board Meeting of the EPS Nuclear Physics Division of the European Physical Society (NP-EPS)
-url: https://www.eps.org/members/group_content_view.asp?group=85199&id=508742
-start: 2016-04-18
-end: 2016-04-18
-venue: IPNO, Orsay, France
-type: International Workshop
-participants: 20
-contributions:
-- type: Talk
-  invited: Yes
-  title: Quark Gluon Plasma and Heavy Ion Physics at the LHC and related French activities
-  firstname: Gines
-  lastname: Martinez

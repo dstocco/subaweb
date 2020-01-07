@@ -13,11 +13,6 @@ contributions:
   firstname: Astrid
   lastname: Morreale
 contributions:
-- type: Talk
-  invited: No
-  title: Measurement of an excess in the yield of J/psi; at very low pT in Pb-Pb collisions at 2.76 TeV 
-  firstname: Gines
-  lastname: Martinez
 - type: Members of the Organizing Committee
 ---
 conference: CORE-U Joint Seminar
@@ -29,20 +24,6 @@ contributions:
 - type: Seminar
   invited: Yes
   title: The Quark Gluon Plasma and Heavy Ion Collisions 
-  firstname: Gines
-  lastname: Martinez
----
-conference: Quark Matter 2015
-url: http://qm2015.riken.jp/
-start: 2015-09-27
-end: 2015-10-03
-venue: Kobe, Japan
-type: International Conference
-participants: 700
-contributions:
-- type: Talk
-  invited: No
-  title: Measurement of an excess in the yield of J/psi; at very low pT in Pb-Pb collisions at 2.76 TeV 
   firstname: Gines
   lastname: Martinez
 ---
@@ -59,6 +40,20 @@ contributions:
   title: Production de quarkonia dans les collisions d'ions lourds au LHC 
   firstname: Gines
   lastname: Martinez
+---
+conference: 4th International Conference on New Frontiers in Physics
+url: https://indico.cern.ch/event/344173/
+start: 2015-08-23
+end: 2015-08-30
+venue: Crete, Grece
+type: International Conference
+participants: 198
+contributions:
+- type: Talk
+  invited: No
+  title: Review of recent results on jet physics in Heavy Ion from LHC
+  firstname: Alexandre
+  lastname: Shabetai
 ---
 conference: Seminar
 url:
@@ -104,20 +99,6 @@ contributions:
   title: MFT Ladder Assembly 
   firstname: Gines
   lastname: Martinez
----
-conference: 122nd LHCC Meeting 
-url: http://indico.cern.ch/event/389857/
-start: 2015-06-03
-end: 2015-06-03
-venue: CERN, Geneva, Switzerland
-type: International Meeting
-participants: 200
-contributions:
-- type: Talk
-  invited: Yes
-  title: ALICE Status Report 
-  firstname: Marie
-  lastname: Germain
 ---
 conference: 8th France China Particle Physics Laboratory (FCPPL) Workshop
 url: http://indico.cern.ch/event/348717/
